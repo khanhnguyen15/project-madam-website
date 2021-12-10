@@ -7,7 +7,7 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: /about.html
+    url: website/about.html
 
   - titles:
       # @start locale config
@@ -17,4 +17,4 @@ header:
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: /gender.html
+    url: website/gender.html

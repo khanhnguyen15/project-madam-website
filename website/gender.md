@@ -1,6 +1,6 @@
 ---
 layout: article
-titles: Gender
+title: Gender
 key: page-about
 ---
 

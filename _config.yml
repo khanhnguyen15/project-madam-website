@@ -20,9 +20,9 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://khanhnguyen15.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : /project-madam-website # does not include hostname
-title   : Your Site Title
+title   : mADAm
 description: > # this means to ignore newlines until "Language & timezone"
-  Your Site Description
+  This is the data story for the ADA class
 
 
 ## => Language and Timezone

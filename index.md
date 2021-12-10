@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Me
+title: About The Project
 order: 1
 ---
 
