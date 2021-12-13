@@ -11,6 +11,16 @@ header:
 
   - titles:
       # @start locale config
+      en      : &EN       Introduction
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: website/introduction.html
+    
+  - titles:
+      # @start locale config
       en      : &EN       Gender
       en-GB   : *EN
       en-US   : *EN
