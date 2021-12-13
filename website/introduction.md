@@ -2,12 +2,14 @@
 layout: article
 title: Introduction
 key: page-introduction
+aside:
+  toc: true
 ---
 
-# What?
+## What?
 In this project we plan to explore the differences in representation of different genders in quotations from news websites, from January 2015 to April 2020, using data from [Quotebank](https://dlab.epfl.ch/people/west/pub/Vaucher-Spitz-Catasta-West_WSDM-21.pdf).  We will explore the following genders: male, female, transgender male, transgender female, non-binary and genderfluid.
 
-# Why?
+## Why?
 
 **"Gender equality is the goal that will help abolish poverty that will create more equal economies, fairer societies and happier men, women and children"**
 -- Graça Machel (former First Lady of South Africa)
@@ -21,6 +23,6 @@ According to [this study](https://www.pewresearch.org/fact-tank/2021/01/12/more-
 
 This is a huge audience, and by being able to choose what speakers they quote, and what quotes they select, journalists are holding a power that many may underestimate, and are able to influence millions of opinions.
 
-# How?
+## How?
 The dataset from Quotebank consisted of a list of around 100 million quotes featured in news articles, from January 2015 to April 2020. It included information such as the most probable speakers for each quote, the number of total quotations, and the date of the first occurrence. Using data from [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), we were able to get the gender of each speaker.
 

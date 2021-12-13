@@ -1,41 +1,41 @@
 header:
-  - titles:
-      # @start locale config
-      en      : &EN       About
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
-    url: website/about.html
+  # - titles:
+  #     # @start locale config
+  #     en      : &EN       About
+  #     en-GB   : *EN
+  #     en-US   : *EN
+  #     en-CA   : *EN
+  #     en-AU   : *EN
+  #     # @end locale config
+  #   url: website/about.html
 
-  - titles:
-      # @start locale config
-      en      : &EN       Introduction
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
-    url: website/introduction.html
+  # - titles:
+  #     # @start locale config
+  #     en      : &EN       Introduction
+  #     en-GB   : *EN
+  #     en-US   : *EN
+  #     en-CA   : *EN
+  #     en-AU   : *EN
+  #     # @end locale config
+  #   url: website/introduction.html
     
-  - titles:
-      # @start locale config
-      en      : &EN       Initial Analysis
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
-    url: website/initial.html
+  # - titles:
+  #     # @start locale config
+  #     en      : &EN       Initial Analysis
+  #     en-GB   : *EN
+  #     en-US   : *EN
+  #     en-CA   : *EN
+  #     en-AU   : *EN
+  #     # @end locale config
+  #   url: website/initial.html
 
 
-  - titles:
-      # @start locale config
-      en      : &EN       Topic
-      en-GB   : *EN
-      en-US   : *EN
-      en-CA   : *EN
-      en-AU   : *EN
-      # @end locale config
-    url: website/topic.html
+  # - titles:
+  #     # @start locale config
+  #     en      : &EN       Topic
+  #     en-GB   : *EN
+  #     en-US   : *EN
+  #     en-CA   : *EN
+  #     en-AU   : *EN
+  #     # @end locale config
+  #   url: website/topic.html
