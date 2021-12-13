@@ -4,17 +4,19 @@ title: Introduction
 key: page-introduction
 ---
 
+# What?
+In this project we plan to explore the differences in representation of different genders in quotations from news websites, from January 2015 to April 2020, using data from [Quotebank](https://dlab.epfl.ch/people/west/pub/Vaucher-Spitz-Catasta-West_WSDM-21.pdf).  We will explore the following genders: male, female, transgender male, transgender female, non-binary and genderfluid.
 
-**"The man who reads nothing at all is better educated than the man who reads nothing but newspapers"**
--- Thomas Jefferson
+# Why?
 
-It's hard to measure the impact that the printing press had on society has a whole, so much so that there are entire books written about this[^1]. It allowed the free (debatable) flow of information to the people, and enriched and shaped the minds of billions of people, whose vision of the outside world was a reflection of what the newspapers at the time had to offer.
+**"Gender equality is the goal that will help abolish poverty that will create more equal economies, fairer societies and happier men, women and children"**
+-- Graça Machel (former First Lady of South Africa)
 
-But those were different times, nowadays nobody cares about reading news, right? Nope, people still do, but not from newspapers. According to [this study](https://www.pewresearch.org/fact-tank/2021/01/12/more-than-eight-in-ten-americans-get-news-from-digital-devices/), 86% of North Americans get their news from digital devices, and 26% prefer to get them from news websites. That's a lot of people. With such a big audience
+Gender equality is a long-fought battle, one that has already taken long strides in the past centuries, be it in representation in the workplace, wage gaps and legislations. **But has it been enough?** And specifically in online journalism, are all genders given a fair shake when quoted in articles?
 
+According [this study](https://www.pewresearch.org/fact-tank/2021/01/12/more-than-eight-in-ten-americans-get-news-from-digital-devices/) conducted in 2020, 34% of North Americans often get their news from news websites. ![Survey conducted by Pew Research Center.](https://www.pewresearch.org/fact-tank/2021/01/12/more-than-eight-in-ten-americans-get-news-from-digital-devices/ft_2021-01-12_socialmedia_03/)
 
+This is a huge audience, and by being able to choose what speakers they quote, and what quotes they select, journalists are holding a power that many may underestimate, and are able to influence millions of opinions.
 
-
-
-
-[^1]: Also known has print-ception.
+# How?
+The dataset from Quotebank consisted of a list of around 100 million quotes featured in news articles, from January 2015 to April 2020. It included information such as the most probable speakers for each quote, the number of total quotations, and the date of the first occurrence. Using data from [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), we were able to get the gender of each speaker.
