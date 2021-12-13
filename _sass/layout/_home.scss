@@ -13,3 +13,9 @@
     margin-top: map-get($spacers, 4) * 1.5;
   }
 }
+
+blockquote {
+  border-left: .25em solid #b3b6b9;
+  color: #56585c;
+  padding: 0 1em;
+}

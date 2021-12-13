@@ -13,8 +13,9 @@ In this project we plan to explore the differences in representation of differen
 
 ## Why?
 
-**"Gender equality is the goal that will help abolish poverty that will create more equal economies, fairer societies and happier men, women and children"**
--- Graça Machel (former First Lady of South Africa)
+> **"Gender equality is the goal that will help abolish poverty that will create more equal economies, fairer societies and happier men, women and children"**
+>
+> --Graça Machel (former *First Lady of South Africa*)
 
 Gender equality is a long-fought battle, one that has already taken long strides in the past centuries, be it in representation in the workplace, wage gaps and legislations. **But has it been enough?** And specifically in online journalism, are all genders given a fair shake when quoted in articles?
 
