@@ -21,13 +21,13 @@ header:
     
   - titles:
       # @start locale config
-      en      : &EN       Gender
+      en      : &EN       Initial Analysis
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
       # @end locale config
-    url: website/gender.html
+    url: website/initial.html
 
 
   - titles:
