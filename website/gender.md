@@ -1,17 +1,19 @@
 ---
 layout: article
-title: General Analysis
+title: Initial Analysis
 key: page-general
 ---
+Let's have a first look at the data: 
 
 # Not a great start...
 Plot 1
 
-{% include top_speakers.html %}
+{% include general_quotations_speakers.html %}
 
 Plot 2
 
-{% include general_quotations_speakers.html %}
+{% include top_speakers.html %}
+
 ### Testing linking to page
 Furthere analysis on topics can be found [here]({{ "/website/topic.html" | absolute_url }})
 
