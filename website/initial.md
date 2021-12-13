@@ -1,11 +1,10 @@
 ---
 layout: article
-title: Initial Analysis
+title: Not a great start...
 key: page-general
 ---
 Let's have a first look at the data: 
 
-# Not a great start...
 Plot 1
 
 {% include general_quotations_speakers.html %}
