@@ -24,3 +24,5 @@ This is a huge audience, and by being able to choose what speakers they quote, a
 # How?
 The dataset from Quotebank consisted of a list of around 100 million quotes featured in news articles, from January 2015 to April 2020. It included information such as the most probable speakers for each quote, the number of total quotations, and the date of the first occurrence. Using data from [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), we were able to get the gender of each speaker.
 
+# Got it... now what?
+Before doing anything too fancy, we'll start off by doing some initial analyses on the available data, head to [Initial Analysis]({{ "/website/initial.html" | absolute_url }}).
