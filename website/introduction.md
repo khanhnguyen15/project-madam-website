@@ -14,7 +14,7 @@ In this project we plan to explore the differences in representation of differen
 
 Gender equality is a long-fought battle, one that has already taken long strides in the past centuries, be it in representation in the workplace, wage gaps and legislations. **But has it been enough?** And specifically in online journalism, are all genders given a fair shake when quoted in articles?
 
-According [this study](https://www.pewresearch.org/fact-tank/2021/01/12/more-than-eight-in-ten-americans-get-news-from-digital-devices/) conducted in 2020, 34% of North Americans often get their news from news websites. ![Survey conducted by Pew Research Center.](https://www.pewresearch.org/fact-tank/2021/01/12/more-than-eight-in-ten-americans-get-news-from-digital-devices/ft_2021-01-12_socialmedia_03/)
+According [this study](https://www.pewresearch.org/fact-tank/2021/01/12/more-than-eight-in-ten-americans-get-news-from-digital-devices/) conducted in 2020, 34% of North Americans often get their news from news websites. ![Survey conducted by Pew Research Center.](https://www.pewresearch.org/wp-content/uploads/2021/01/ft_2021.01.12_socialmedia_03.png?w=640)
 
 This is a huge audience, and by being able to choose what speakers they quote, and what quotes they select, journalists are holding a power that many may underestimate, and are able to influence millions of opinions.
 
