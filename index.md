@@ -54,5 +54,5 @@ Now you might be thinking: "Of course men way more quotations, because that incl
 
 ## 
 <iframe src="plots/top_speakers.html" height="600" width="100%" style="border:none;" scrolling="no"> </iframe>
-
+{% include top_speakers.html %}
 
