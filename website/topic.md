@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Gender
+title: Topic
 key: page-about
 ---
 
@@ -11,4 +11,5 @@ Sample page for Topic Analysis
 
 
 ### Testing interactive images
-{% include top_speakers.html %}
+{% include topic_in_gender.html %}
+{% include gender_in_topic.html %}
