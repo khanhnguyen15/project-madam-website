@@ -46,15 +46,13 @@ Just to see how things are generaly doing, we'll plot the percentage of quotatio
 
 Yikes. From the <em> percentage of quotations</em> plot we see that **men get quoted around 80% of the time**. This percentage is about **4x bigger than the one for women**. However, not everything is lost, as we do see a slight decreasing trend in male quotations, with 84% in 2015 and 81% in 2020. We also see an increase of about 3% in quotes from women.
 
-All the other genders are massively underrepresented in news articles, most of them resting below 0.1% of quotations. We also don't see any increasing tendencies, only distinct peaks. For example, Caitlyn Jenner [came out as a transgender woman in April 2015](https://www.nbcnews.com/pop-culture/celebrity/bruce-jenner-comes-out-transgender-woman-n348181), so there are peaks in the transgender female plot in that time. Another example, Miley Cyrus 
-also [revealed she is genderfluid](https://www.billboard.com/music/pop/miley-cyrus-gender-fluid-nothing-to-do-with-any-parts-6598191/) in June 2015, so we also observe peaks there.
+All the other genders are massively underrepresented in news articles, most of them resting below 0.1% of quotations. We also don't see any increasing tendencies, only distinct peaks. For example, Caitlyn Jenner [came out as a transgender woman in April 2015](https://www.nbcnews.com/pop-culture/celebrity/bruce-jenner-comes-out-transgender-woman-n348181), so there are peaks in the transgender female plot in that time. Another example, Miley Cyrus [revealed she is genderfluid](https://www.billboard.com/music/pop/miley-cyrus-gender-fluid-nothing-to-do-with-any-parts-6598191/) in June 2015, so we also observe peaks there.
 
 <iframe src="plots/perc_speakers.html" height="600" width="100%" style="border:none;" scrolling="no"> </iframe>
 
-Now, you might be thinking "Of course men way more quotations, because that includes very influential people like Donald Trump and Barack Obama". Well yes but also no. If we look at the <em>percentage of speakers by gender</em>, it looks just about the same. Around **80% of quoted speakers are male**, with a very slight decrease of 2% over time. **In genders other than male and female, transgender female speakers dominate at around 0.08%**.
+Now you might be thinking: "Of course men way more quotations, because that includes very influential people like Donald Trump and Barack Obama". Well yes but also no. If we look at the <em>percentage of speakers by gender</em>, it looks just about the same. Around **80% of quoted speakers are male**, with a very slight decrease of 2% over time. **In genders other than male and female, transgender female speakers dominate at around 0.08%**.
 
-Plot 2
-
-{% include top_speakers.html %}
+## 
+<iframe src="plots/top_speakers.html" height="600" width="100%" style="border:none;" scrolling="no"> </iframe>
 
 
