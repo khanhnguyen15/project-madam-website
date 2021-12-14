@@ -47,6 +47,7 @@ Just to see how things are generaly doing, we'll plot the percentage of quotatio
 
 <iframe src="plots/general_quotations_speakers.html" height="600" width="900" style="border:none;" scrolling="no"> </iframe>
 
+NOT GOOD
 
 Plot 2
 
