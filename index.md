@@ -45,7 +45,7 @@ Before doing anything too fancy, we'll start by doing some initial analyses on t
 ## Not your usual 80-20 rule
 Just to see how things are generaly doing, we'll plot the percentage of quotations by gender (the total number of times speakers of different genders were quoted) and the percentage of speakers by gender.
 
-<iframe src="_includes/topic_in_gender.html" height="600px" width="100%">  </iframe>
+<iframe src="_includes/topic_in_gender.html" height="300px" width="100%">  </iframe>
 
 
 Plot 2
