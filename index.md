@@ -27,7 +27,7 @@ According to [this study](https://www.pewresearch.org/fact-tank/2021/01/12/more-
 ![top_speakers]({{ "/assets/images/news_source.png" | absolute_url }})
 {: refdef}
 
-This is a huge audience, and by being able to choose what speakers they quote, and what quotes they select, journalists are holding a power that many may underestimate, and are able to influence millions of opinions. With great power comes great responsability[^1], and we plan to investigate how this power is being used to represent different genders.
+This is a huge audience, and by being able to choose what speakers they quote, and what quotes they select, journalists are holding a power that many may underestimate, and are able to influence millions of opinions. With great power comes great responsibility[^1], and we plan to investigate how this power is being used to represent different genders.
 
 [^1]: Uncle Ben, 2002
 
