@@ -52,7 +52,6 @@ All the other genders are massively underrepresented in news articles, most of t
 
 Now you might be thinking: "Of course men way more quotations, because that includes very influential people like Donald Trump and Barack Obama". Well yes but also no. If we look at the <em>percentage of speakers by gender</em>, it looks just about the same. Around **80% of quoted speakers are male**, with a very slight decrease of 2% over time. **In genders other than male and female, transgender female speakers dominate at around 0.08%**.
 
-## 
-<iframe src="plots/top_speakers.html" height="800" width="100%" style="border:none;" scrolling="no"> </iframe>
-{% include top_speakers.html %}
+## [Top speakers by month title]
+<iframe src="plots/top_speakers.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
