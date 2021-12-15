@@ -60,3 +60,26 @@ Above are the top speakers of every month by gender and, to no one’s surprise,
 ## First Impressions: Not great...
 These initial numbers don't look too promising. Men dominate in every plot we've seen, by a big margin. Now that we have a general idea of how (badly) things are going, let's dive deeper and try to find how exactly <em>what</em> each gender is talking about.
 
+# Quality vs Quantity?
+
+We already saw that not everybody is getting the same speaking platform. However, we don't know if all these quotes are equally relevant. Maybe men are simply quoted a lot more, while also saying nothing particularly relevant. To look into that, let's divide society into a few key topics, presented here in no particular order.
+
+- Business
+- Sports
+- Government
+- Climate Change
+- LGBT
+- Money
+- Family
+- Health
+
+To see how the people can be distributed among these topics, we'll count how many words each gender says about any given topic. The temporal evolution is displayed below.
+
+<iframe src="plots/gender_in_topic.html" height="700" width="110%" style="border:none;" scrolling="no"> </iframe>
+
+
+# WORKING TITLE FOR SENTIMENT ANALYSIS
+
+
+
+# WORKING TITLE FOR TEXT COMPLEXITY
