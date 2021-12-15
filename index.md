@@ -75,14 +75,14 @@ We already saw that not everybody is getting the same speaking platform. However
 
 To see how the people can be distributed among these topics, we'll count how many words each gender says about any given topic. The temporal evolution is displayed below.
 
-<iframe src="plots/gender_in_topic.html" height="700" width="110%" style="border:none;" scrolling="no"> </iframe>
+<iframe src="plots/gender_in_topic.html" height="750" width="110%" style="border:none;" scrolling="no"> </iframe>
 
 Keeping in ming the graph above is in logarithmic scale, several things are immediately obvious. First, men and women clearly have more words than any of the other genders, which makes sense as they have the sheer number of quotes to overpower them. Comparing men and women, we see that men have about 4x more words than women for all topics, which seems consistent with the distribution of 80-20 seen before. Still only looking at men and women, sadly the least talked about topics are LGBT and Climate Change. In fact, climate change has about 20x less words than business, and LGBT some whopping 500x times less words. This shows that no matter what the claims are for a media saturated with "liberal agenda" (FIND SOME QUOTE FOR THIS), it is clearly waaay less represented than any of the main "traditional" topics, like business, sports and money.
 
 As far as our minorities are concerned, they present a lot more fluctuation (partly due to the smaller sample size). However, they surprisingly follow fairly well the trends set by the men and women quotes. In fact, their least significant topics are, as wel, LGBT and Climate Change (with the exception of some occasional spikes). This however, seems like good news! Because ...
 
 
-<iframe src="plots/topic_in_gender.html" height="700" width="110%" style="border:none;" scrolling="no"> </iframe>
+<iframe src="plots/topic_in_gender.html" height="750" width="110%" style="border:none;" scrolling="no"> </iframe>
 
 
 # WORKING TITLE FOR SENTIMENT ANALYSIS
