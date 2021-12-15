@@ -40,7 +40,7 @@ The dataset from Quotebank consisted of a list of around 100 million quotes feat
 # Initial Analysis
 
 ## Not your usual 80-20 rule
-Just to see how things are generaly doing, we'll plot the percentage of quotations by gender (the total number of times speakers of different genders were quoted) and the percentage of speakers by gender.
+Just to see how things are generaly doing, we'll plot the percentage of quote occurrences by gender (the total number of times speakers of different genders were quoted) and the percentage of speakers by gender.
 
 <iframe src="plots/perc_quotations.html" height="600" width="100%" style="border:none;" scrolling="no"> </iframe>
 
@@ -50,11 +50,14 @@ All the other genders are massively underrepresented in news articles, most of t
 
 <iframe src="plots/perc_speakers.html" height="600" width="100%" style="border:none;" scrolling="no"> </iframe>
 
-Now you might be thinking: "Of course men get way more quotations, because that includes very influential people like Donald Trump and Barack Obama". Well, yes but actually no. If we look at the <em>percentage of speakers by gender</em>, it looks just about the same. Around **80% of quoted speakers are male**, with a very slight decrease of 2% over the past 5 years. **In genders other than male and female, transgender female speakers dominate at around 0.08%**.
+Now you might be thinking: "Of course men get quoted way more often, because they have very influential people like Donald Trump and Barack Obama". Well, yes but actually no. If we look at the <em>percentage of speakers by gender</em>, it looks just about the same. Around **80% of quoted speakers are male**, with a very slight decrease of 2% over the past 5 years. **In genders other than male and female, transgender female speakers dominate at around 0.08%**.
 
 ## Trump, Trump and more Trump
 
 <iframe src="plots/top_speakers.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
-Above are the top speakers of every month by gender and, to no one’s surprise, **Trump is the most quoted speaker of the last 5 years**. Since the beginning of 2016, when the presidential race started going strong, the former President of the USA has consistently been the most quoted speaker. In the January 2015 to April 2020 period, **Trump averages around 116,000 monthly quotations**. That is more than **6 times the amount for the top speakers of all other genders <em>combined</em>**.
+Above are the top speakers of every month by gender and, to no one’s surprise, **Trump is the most quoted speaker of the last 5 years**. Since the beginning of 2016, when the presidential race started going strong, the former President of the USA has consistently been the most quoted speaker almost every month. In the months where he is the top speaker, **Trump averages around 117,000 monthly quote occurrences**. That is more than **6 times the amount for the top speakers of all other genders <em>combined</em>**.
+
+## First Impressions: Not too great...
+
 
