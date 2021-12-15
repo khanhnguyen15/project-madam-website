@@ -90,3 +90,7 @@ As far as the minority genders are concerned, they present a lot more fluctuatio
 
 
 # WORKING TITLE FOR TEXT COMPLEXITY
+
+<iframe src="plots/text_complexity_cons.html" height="500" width="100%" style="border:none;" scrolling="no"> </iframe>
+
+<iframe src="plots/text_complexity_libr.html" height="500" width="100%" style="border:none;" scrolling="no"> </iframe>
