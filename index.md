@@ -62,7 +62,7 @@ These initial numbers don't look too promising. Men dominate in every plot we've
 
 # Quality vs Quantity?
 
-We already saw that not everybody is getting the same speaking platform. However, we don't know if all these quotes are equally relevant. Maybe men are simply quoted a lot more, while also saying nothing particularly relevant. To look into that, let's divide society into a few key topics, presented here in no particular order.
+We've seen that not everybody is getting the same platform to speak from. But what exactly are speakers talking about?. To look into that, let's divide consider a few key topics, presented here in no particular order.
 
 - Business
 - Sports
@@ -73,16 +73,16 @@ We already saw that not everybody is getting the same speaking platform. However
 - Family
 - Health
 
-To see how the people can be distributed among these topics, we'll count how many words each gender says about any given topic. The temporal evolution is displayed below.
+To see how these topics are spread among the quotes of different genders, we'll count how many words speakers from each gender say about any given topic. The temporal evolution is displayed below.
 
 <iframe src="plots/gender_in_topic.html" height="750" width="110%" style="border:none;" scrolling="no"> </iframe>
 
-Keeping in ming the graph above is in logarithmic scale, several things are immediately obvious. First, men and women clearly have more words than any of the other genders, which makes sense as they have the sheer number of quotes to overpower them. Comparing men and women, we see that men have about 4x more words than women for all topics, which seems consistent with the distribution of 80-20 seen before. Still only looking at men and women, sadly the least talked about topics are LGBT and Climate Change. In fact, climate change has about 20x less words than business, and LGBT some whopping 500x times less words. This shows that no matter what the claims are for a media saturated with "liberal agenda" (FIND SOME QUOTE FOR THIS), it is clearly waaay less represented than any of the main "traditional" topics, like business, sports and money.
+Men and women clearly have more words than any of the other genders, which makes sense as they have the largest percentage of quotes. Sadly, **the topics men and women talk the least about are LGBT and Climate Change**. The latter has about 20x less words than business, and LGBT has some whopping 500x times less words. This shows that no matter what the claims are for a media saturated with "liberal agenda" (FIND SOME QUOTE FOR THIS), it is clearly way less represented than any of the main "traditional" topics, like business, sports and money. There isn't a clear positive trend in the evolution of the number of words for these topics, which is a sign that they are not having the exposure they require.
 
-As far as our minorities are concerned, they present a lot more fluctuation (partly due to the smaller sample size). However, they surprisingly follow fairly well the trends set by the men and women quotes. In fact, their least significant topics are, as wel, LGBT and Climate Change (with the exception of some occasional spikes). This however, seems like good news! Because ...
+As far as the minority genders are concerned, they present a lot more fluctuations (partly due to the smaller sample size). However, they surprisingly follow the trends set by the men and women fairly well. In fact, their least significant topics are, as well, LGBT and Climate Change (with the exception of some occasional spikes). This however, seems like good news! Because ...
 
 
-<iframe src="plots/topic_in_gender.html" height="750" width="110%" style="border:none;" scrolling="no"> </iframe>
+<iframe src="plots/topic_in_gender.html" height="750" width="100%" style="border:none;" scrolling="no"> </iframe>
 
 
 # WORKING TITLE FOR SENTIMENT ANALYSIS
