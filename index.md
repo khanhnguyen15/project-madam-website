@@ -81,8 +81,8 @@ Let’s start with the percentage of words from different genders that fall into
 
 The main takeaways from here are: 
  - **Men tend to talk more about business and sports**
- - **Women tend towards business and government.**
- - **The topics men and women talk the least about are LGBT and Climate Change.** 
+ - **Women tend towards business and government**
+ - **The topics men and women talk the least about are LGBT and Climate Change** 
 
 As far as the minority genders are concerned, they present a lot more fluctuations (partly due to the smaller sample size). Surprisingly, they follow the trends set by the men and women fairly well. In fact, their least significant topics are LGBT and Climate Change (with the exception of some occasional spikes).
 
