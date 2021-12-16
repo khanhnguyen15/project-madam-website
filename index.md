@@ -60,6 +60,9 @@ Above are the top speakers of every month by gender and, to no one’s surprise,
 ## First Impressions: Not great...
 These initial numbers don't look too promising. Men dominate in every plot we've seen, by a big margin. Now that we have a general idea of how (badly) things are going, let's dive deeper and try to find how exactly <em>what</em> each gender is talking about.
 
+<br/>
+<br/>
+
 # Topic Analysis
 
 We've seen that not everybody is getting the same platform to speak from. But what exactly are speakers talking about? To look into that, let's consider a few key topics, presented here in no particular order.
@@ -94,6 +97,8 @@ Well this is worrying… **Business has about 20x more words than Climate Change
 
 This shows that despite [some claims](https://www.investors.com/politics/editorials/media-bias-left-study/) that media is saturated with a "liberal agenda", these issues are clearly much less represented than any of the main "traditional" topics, like business, sports and money.
 
+<br/>
+<br/>
 
 # Sentimental Analysis
 
