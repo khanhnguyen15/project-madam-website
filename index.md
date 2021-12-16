@@ -60,9 +60,9 @@ Above are the top speakers of every month by gender and, to no one’s surprise,
 ## First Impressions: Not great...
 These initial numbers don't look too promising. Men dominate in every plot we've seen, by a big margin. Now that we have a general idea of how (badly) things are going, let's dive deeper and try to find how exactly <em>what</em> each gender is talking about.
 
-# Quality vs Quantity?
+# Topic Analysis
 
-We've seen that not everybody is getting the same platform to speak from. But what exactly are speakers talking about?. To look into that, let's divide consider a few key topics, presented here in no particular order.
+We've seen that not everybody is getting the same platform to speak from. But what exactly are speakers talking about? To look into that, let's consider a few key topics, presented here in no particular order.
 
 - Business
 - Sports
@@ -73,19 +73,29 @@ We've seen that not everybody is getting the same platform to speak from. But wh
 - Family
 - Health
 
-To see how these topics are spread among the quotes of different genders, we'll count how many words speakers from each gender say about any given topic. The temporal evolution is displayed below.
+## Business runs the world
 
-<iframe src="plots/gender_in_topic.html" height="750" width="100%" style="border:none;" scrolling="no"> </iframe>
-
-Men and women clearly have more words than any of the other genders, which makes sense as they have the largest percentage of quotes. Sadly, **the topics men and women talk the least about are LGBT and Climate Change**. The latter has about 20x less words than business, and LGBT has some whopping 500x times less words. This shows that no matter what the claims are for a media saturated with "liberal agenda" (FIND SOME QUOTE FOR THIS), it is clearly way less represented than any of the main "traditional" topics, like business, sports and money. There isn't a clear positive trend in the evolution of the number of words for these topics, which is a sign that they are not having the exposure they require.
-
-As far as the minority genders are concerned, they present a lot more fluctuations (partly due to the smaller sample size). However, they surprisingly follow the trends set by the men and women fairly well. In fact, their least significant topics are, as well, LGBT and Climate Change (with the exception of some occasional spikes). This however, seems like good news! Because ...
-
+Let’s start with the percentage of words from different genders that fall into these topics.
 
 <iframe src="plots/topic_in_gender.html" height="750" width="100%" style="border:none;" scrolling="no"> </iframe>
 
+The main takeaways from here are: 
+ - **Men tend to talk more about business and sports**
+ - **Women tend towards business and government.**
+ - **The topics men and women talk the least about are LGBT and Climate Change.** 
 
-# Sentimental Trend
+As far as the minority genders are concerned, they present a lot more fluctuations (partly due to the smaller sample size). Surprisingly, they follow the trends set by the men and women fairly well. In fact, their least significant topics are LGBT and Climate Change (with the exception of some occasional spikes).
+
+Now, for the distributions of genders in each topic, see the plot below.
+
+<iframe src="plots/gender_in_topic.html" height="750" width="100%" style="border:none;" scrolling="no"> </iframe>
+
+Well this is worrying… **Business has about 20x more words than Climate Change, and 500x more words than LGBT.** There isn't a clear positive trend in the evolution of the number of words for LGBT and Climate Change, which is a sign that they are not having the exposure they require.  
+
+This shows that despite [some claims](https://www.investors.com/politics/editorials/media-bias-left-study/) that media is saturated with a "liberal agenda", these issues are clearly much less represented than any of the main "traditional" topics, like business, sports and money.
+
+
+# Sentimental Analysis
 
 We have the numbers figured out, but what about the sentiments? How do the quotes' sentimental attitudes of different genders appear in news sources? For this analysis, we compare quotes by their sentiment scores, which can take up values between -1 and 1. A sentiment score of 0 can be regarded as a neutral quote, while positive and negative scores represent positive and negative quotes respectively. A higher positive score means the quote has a higher positive tone and content, and vice-versa for the negative score.
 
@@ -165,7 +175,7 @@ In addition to these, we observe convergence in scores in The Washington Free Be
 
 
 
-# WORKING TITLE FOR TEXT COMPLEXITY
+# Text Complexity
 
 Another metric which can be used to spot bias is via the text complexity[^2]. It is true that quotes are, by their very nature, unchangeable. However, the quotes chosen can be very representative of the point of view, or the bias, of a news source. One of the possible choices is the complexity (or difficulty) of the quotes used. In fact, using very complex quotes might give the public the impression that that person is difficult to understand, or that they are intentionally complicating their speech. On the other hand, a systematic usage of very simplistic quotes might give of the illusion of trivial and basic speech.
 
