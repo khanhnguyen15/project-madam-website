@@ -167,6 +167,12 @@ In addition to these, we observe convergence in scores in The Washington Free Be
 
 # WORKING TITLE FOR TEXT COMPLEXITY
 
+Another metric which can be used to spot bias is via the text complexity[^2]. It is true that quotes are, by their very nature, unchangeable. However, the quotes chosen can be very representative of the point of view, or the bias, of a news source. One of the possible choices is the complexity (or difficulty) of the quotes used. In fact, using very complex quotes might give the public the impression that that person is difficult to understand, or that they are intentionally complicating their speech. On the other hand, a systematic usage of very simplistic quotes might give of the illusion of trivial and basic speech.
+
+[^2]: There are several formulas to calculate text complexity. For our purposes, we used the [Dale-Chall Reability Formula](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula)
+
+Here we will focus mainly on the differences between men and women, as we didn't find any significant trends on the minority genders. Moreover, we will split our sources into liberal and conservative, and see how they handle the text complexity for men and women. On the graphs below we show the differences in text complexity by men and women, for a series of conservative and liberal news sources. These results were obtained by averaging out the data from the 6 years available, and the error bars represent the standard deviation of the difference between the two complexities.
+
 <iframe src="plots/text_complexity_cons.html" height="500" width="100%" style="border:none;" scrolling="no"> </iframe>
 
 <iframe src="plots/text_complexity_libr.html" height="500" width="100%" style="border:none;" scrolling="no"> </iframe>
