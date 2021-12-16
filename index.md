@@ -102,8 +102,9 @@ This shows that despite [some claims](https://www.investors.com/politics/editori
 
 # Sentimental Analysis
 
-We have the numbers figured out, but what about the sentiments? How do the quotes' sentimental attitudes of different genders appear in news sources? For this analysis, we compare quotes by their sentiment scores, which can take up values between -1 and 1. A sentiment score of 0 can be regarded as a neutral quote, while positive and negative scores represent positive and negative quotes respectively. A higher positive score means the quote has a higher positive tone and content, and vice-versa for the negative score.
+Not everything in the world is about business though... On a more emotional note, we want to explore the sentiment present in these quotes: are they mainly positive, negative or neutral?
 
+For this analysis, we compare quotes by their sentiment scores, which can take up values between -1 and 1. A sentiment score of 0 can be regarded as a neutral quote, while positive and negative scores represent positive and negative quotes respectively.
 
 <iframe src="plots/sent_vs_time_allgenders.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
@@ -115,9 +116,9 @@ When we focus on quotes from males and females, we see that almost consistently 
 
 Let's see if this situation continues when we divide news sources into two categories as liberal and conservative. To represent these two categories, we have created 2 lists that contain some of the most popular liberal and conservative news sources according to ThoughtCo and Aelieve Digital Marketing.
 
-    - Liberal news sources: CNN, Huffington Post, The New York Times, Politico, Slate, ABC News, Daily Kos, The Washington Post, 
+ - Liberal news sources: CNN, Huffington Post, The New York Times, Politico, Slate, ABC News, Daily Kos, The Washington Post, 
                             Time Magazine, The Atlantic.
-    - Conservative news sources: National Review, The American Spectator, The American Conservative, The New American, 
+ - Conservative news sources: National Review, The American Spectator, The American Conservative, The New American, 
                                  The Washington Times, FrontPage Magazine, The Washington Free Beacon, The Blaze, 
                                  Cybercast News Service (CNS News), Human Events.
     
