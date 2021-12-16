@@ -105,11 +105,11 @@ Let's see if this situation continues when we divide news sources into two categ
     
 First, we make an overall comparison between liberal (denoted by L) and conservative (denoted by C) news sources, then take a deep dive into each website separately. 
 
-<iframe src="sent_vs_time_vs_lib&cons_male&female.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
+<iframe src="plots/sent_vs_time_vs_lib&cons_male&female.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
 From the plots above, we can see that in liberal news sources, sentiment scores of male and female quotes are close to each other, but the female quotes portrayed in these news sources have slightly higher positive scores compared to males'. On the other hand, in conservative news sources, we see that the gap between the male and female quotes' sentiment scores is a little wider compared to the gap in the liberal graph. Also, we can see that contrary to the quotes in liberal news sources, in conservative news sources the coverage given to male quotes have higher positive sentiment scores than the female quotes.
 
-<iframe src="mean_table.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
+<iframe src="plots/mean_table.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
 The summary table above shows that the mean difference between the average sentiment scores of female and male quotes in conservative news sources is twice of the liberal news sources. Also, we see that there is a 14% difference in the mean sentiment scores of female quotes in liberal and conservative news sources and a 38% difference for the male quotes. These results and the graphs above brings up two questions:
 
@@ -119,7 +119,7 @@ The summary table above shows that the mean difference between the average senti
 
 Let's have a look at the distributions of the sentiment scores of quotes from males and females in liberal and conservative news sources.
 
-<iframe src="violin_sent_lib&cons_male&female.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
+<iframe src="plots/violin_sent_lib&cons_male&female.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
 From the violin-boxplot above we can directly see that there is a general shift towards more positive sentiment scores of quotes belonging to men in conservative news sources. On the other side, we see that although the median and third quartile values of sentiment scores of female quotes are very similar in both liberal and conservative news sources, the first quartile value, which falls in the area of negative sentiment, is higher in the liberal news sources.
 
@@ -128,7 +128,7 @@ Since the variance of the distributions are similar, to see if the differences w
     - Test 1 - H0:  The mean sentiment score of quotes from males in conservative news sources is less than that of liberal news sources.
     - Test 2 - H0:  The mean sentiment score of quotes from females in liberal news sources is less than that of conservative news sources.
 
-<iframe src="p_table.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
+<iframe src="plots/p_table.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
 Since for both tests, the p-values are less than the significance level threshold of 0.005, we have enough evidence to reject the null hypotheses and conclude that:
 
@@ -137,23 +137,23 @@ Since for both tests, the p-values are less than the significance level threshol
 
 Now that we had an overview of the sentiment score differences with respect to gender and news source category, let's have a closer look into the behavior of individual news sources within our representative news source lists.
 
-<iframe src="websites_L.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
+<iframe src="plots/websites_L.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
 We can see that among the selected liberal news sources The New York Times is the one that portrays quotes with the most similar sentiment scores from males and females, followed by Slate, The Atlantic, Politico and CNN. Whereas Huffington Post is the one with the biggest difference in sentiment scores, followed by Time Magazine. We can also note that 9 out of 10 of the representative liberal news sources have quotes with higher sentiment scores from females, only 1 has a reversed trend, which is The Washington Post. 
 
-<iframe src="websites_C.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
+<iframe src="plots/websites_C.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
 We can see that among the selected conservative news sources National Review is the one that portrays quotes with the most similar sentiment scores from males and females, followed by The American Conservative, The American Spectator and The Blaze. Whereas The Washington Times is the one having the biggest difference in sentiment scores. It also constitutes the majority of the quotes in the conservative group and therefore is an important factor in the trend towards more positive quotes from men in conservative news sources.
 By looking at the sizes of the data points in the graphs, in addition to the sentimental differences, we can see that liberal news sources make use of quotations more than conservative news sources.
 
 Let's see how the sentimental difference and the usage of quotations changed over the years.
 
-<iframe src="websites_L_time.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
+<iframe src="plots/websites_L_time.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
 We see that over the years the trend of the sentiment scores remained similar in liberal news sources. The New York Times has the closest scores and all news sources portray higher sentiment scored quotes from females except for The Washington Post.
 In addition to these, we observe convergence in scores in CNN, Politico and The Atlantic. Also, the number of quotes used in the Huffington Post, Daily Kos and ABCnews decreased over the years.
 
-<iframe src="websites_C_time.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
+<iframe src="plots/websites_C_time.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
 For conservative news sources we see that over the years while the trend of the sentiment scores remained similar for The Washington Times, it changes for the other websites. For example, in 2015 sentiment scores of quotes from males is higher than females for The Blaze, however, in 2016 the situation takes a u-turn.
 
