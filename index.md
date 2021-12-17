@@ -104,7 +104,7 @@ This shows that despite [some claims](https://www.investors.com/politics/editori
 
 Not everything in the world is about business though... On a more emotional note, we want to explore the sentiment present in these quotes: are they mainly positive, negative or neutral?
 
-For this analysis, we compare quotes by their sentiment scores, which can take up values between -1 and 1[^2]. A sentiment score of 0 can be regarded as a neutral quote, while positive and negative scores represent positive and negative quotes respectively.
+For this analysis, we compare quotes by their sentiment scores, which can take up values between -1 and 1 [^2]. A sentiment score of 0 can be regarded as a neutral quote, while positive and negative scores represent positive and negative quotes respectively.
 
 [^2]: For sentiment score calculation we used nltk's sentiment intensity analyzer.[nltk sentiment intensity analyzer](https://www.nltk.org/api/nltk.sentiment.vader.html)
 
@@ -114,7 +114,9 @@ We can see that the average sentiment scores attached to male and female quotes 
 
 When we focus on quotes from males and females, we see that almost consistently scores of male quotes lie above the scores of female quotes. Whereas there is no such consistent pattern for other genders. Let's take a closer look into this consistent difference between male and female quotes.
 
-Let's see if this situation continues when we divide news sources into two categories as liberal and conservative. To represent these two categories, we have created 2 lists that contain some of the most popular liberal and conservative news sources according to ThoughtCo and Aelieve Digital Marketing.
+## Liberal vs Conservative
+
+Let's see if the difference we have seen in sentiment scores continues when we divide news sources into two categories as liberal and conservative. To represent these two categories, we have created 2 lists that contain some of the most popular liberal and conservative news sources according to ThoughtCo and Aelieve Digital Marketing.
 
  - Liberal news sources: CNN, Huffington Post, The New York Times, Politico, Slate, ABC News, Daily Kos, The Washington Post,
                          Time Magazine, The Atlantic.
@@ -148,6 +150,8 @@ A simple significance test shows us that we have enough evidence to conclude tha
    In other words, conservative news sources tend to give more coverage to quotes with higher positivity from males compared to liberals
  - The mean sentiment score of quotes from females portrayed in liberal news sources is greater than that of conservative news sources. 
    In other words, liberal news sources tend to give more coverage to quotes with higher positivity from females compared to conservatives.
+
+## News Source Deep Dive
 
 Now that we had an overview of the sentiment score differences with respect to gender and news source category, let's have a closer look into the behavior of individual news sources within our representative news source lists.
 
