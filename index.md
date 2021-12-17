@@ -191,6 +191,7 @@ The bars show the difference of complexity between men and women, and hovering o
 
 We can see that, comparing the liberal to the conservative websites, the liberal ones are more prone to choose quotes of higher complexity for men than the conservatives. To compare the results we have summarised the key findings in the table below.
 
+<center>
 | Category     | Metric             | Value  |
 |--------------|--------------------|--------|
 | Liberal      | Mean Difference    | +0.298 |
@@ -199,7 +200,7 @@ We can see that, comparing the liberal to the conservative websites, the liberal
 | Conservative | Mean Difference    | +0.119 |
 | Conservative | Mean Male Scores   | 10.458 |
 | Conservative | Mean Female Scores | 10.339 |
-{: .tablelines}
+</center>
 
 The results above would appear to present a slight leaning towards higher complexity for male, however a quick statistical test will prove that **there is no statistical difference neither in the results Male vs Female neither in Liberal vs Conservative**. So we cannot claim that there are any gender biases in the way quotes are handled by the news sources we selected here. 
 
