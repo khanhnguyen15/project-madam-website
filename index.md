@@ -129,33 +129,15 @@ First, we make an overall comparison between liberal (denoted by L) and conserva
 <iframe src="plots/sent_vs_time_vs_lib&cons_male&female.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
 Here are some facts we take from this analysis:
-> - **In liberal news sources, women speak around 16% more positively than men**, although not by much, as the scores tend to be pretty close.
+> **In liberal news sources, women speak on average 16% more positively than men**.
 
-> - **In conservative news sources, men tend to speak more positively than women**, and by a bigger margin than in the liberal websites. Although this is not a good thing to see, it isn't completely unexpected.
+> **In conservative news sources, men speak on average 35% more positively than women**. Although this is not a good thing to see, it isn't completely unexpected.
 
-We'll summarize the average values in the table below.
-
-<iframe src="plots/mean_table.html" height="400" width="100%" style="border:none;" scrolling="no"> </iframe>
-
-These results show that: 
-The summary table above shows that the mean difference between the average sentiment scores of female and male quotes in conservative news sources is twice of the liberal news sources. Also, we see that there is a 14% difference in the mean sentiment scores of female quotes in liberal and conservative news sources and a 38% difference for the male quotes. These results and the graphs above brings up two questions:
-
-**'Do the conservative news sources tend to give more coverage to quotes with higher positivity from males?'**
-
-**'Do the liberal news sources tend to give more coverage to quotes with higher positivity from females?'**
-
-Let's have a look at the distributions of the sentiment scores of quotes from males and females in liberal and conservative news sources.
+To observe these differences a bit more clearly, observe the box plot below.
 
 <iframe src="plots/box_sent_lib&cons_male&female.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
-From the boxplot above we can directly see that there is a general shift towards more positive sentiment scores of quotes belonging to men in conservative news sources. On the other side, we see that although the median and third quartile values of sentiment scores of female quotes are very similar in both liberal and conservative news sources, the first quartile value, which falls in the area of negative sentiment, is higher in the liberal news sources.
-
-A simple significance test shows us that we have enough evidence to conclude that:
-
- - The mean sentiment score of quotes from males portrayed in conservative news sources is higher than that of liberal news sources. 
-   In other words, conservative news sources tend to give more coverage to quotes with higher positivity from males compared to liberals
- - The mean sentiment score of quotes from females portrayed in liberal news sources is greater than that of conservative news sources. 
-   In other words, liberal news sources tend to give more coverage to quotes with higher positivity from females compared to conservatives.
+For all the statistics enthusiasts out there: don't be worried. We performed a hypothesis test on the claims above and they are statistically significant with a confidence level of 95%.
 
 ## News Source Deep Dive
 
