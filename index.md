@@ -192,10 +192,11 @@ Here we will focus mainly on the differences between men and women, as we didn't
 
 <iframe src="plots/text_complexity_libr.html" height="500" width="100%" style="border:none;" scrolling="no"> </iframe>
 
-The bars show the difference of complexity between men and women, and hovering over the bars we may see the actual values for men and women. These is a [conversion table](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula) that translates these numbers into an approximation of school level needed to understand the text. We present it below for convenience.
+The bars show the difference of complexity between men and women, and hovering over the bars we may see the actual values for men and women. There is a [conversion table](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula) that translates these numbers into an approximation of school level needed to understand the text. We present it below for convenience.
 
 | Score        | Interpretation                                                       |
 |--------------|----------------------------------------------------------------------|
+
 |4.9 or lower  | easily understood by an average 4th-grade student or lower           |
 |5.0 - 5.9     | easily understood by an average 5th or 6th-grade student             |
 |6.0 - 6.9     | easily understood by an average 7th or 8th-grade student             |
