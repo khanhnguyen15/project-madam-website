@@ -1,89 +1,31 @@
-# [TeXt Theme](https://github.com/kitian616/jekyll-TeXt-theme)
+## MIND THE (GENDER) GAP
 
-[![license](https://img.shields.io/github/license/kitian616/jekyll-TeXt-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE)
-[![Gem Version](https://img.shields.io/gem/v/jekyll-text-theme.svg)](https://github.com/kitian616/jekyll-TeXt-theme/releases)
-[![Travis](https://img.shields.io/travis/kitian616/jekyll-TeXt-theme.svg)](https://travis-ci.org/kitian616/jekyll-TeXt-theme)
-[![Tip Me via PayPal](https://img.shields.io/badge/PayPal-tip%20me-1462ab.svg?logo=paypal)](https://www.paypal.me/kitian616)
-[![Tip Me via Bitcoin](https://img.shields.io/badge/Bitcoin-tip%20me-f7931a.svg?logo=bitcoin)](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/docs/assets/images/3Fkufxcw2xd8HnaRJBNK4ccdtkUDyyNu4V.jpg)
+### Website
+This is the data story for [CS-401: Applied Data Analysis](https://dlab.epfl.ch/teaching/fall2021/cs401/) at EPFL. It was made using [Jekyll](https://jekyllrb.com/) and the [TeXt Theme](https://tianqi.name/jekyll-TeXt-theme/).
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+### Code
+The code utilized to create this data story can be found on the notebooks in [this repo](https://github.com/epfl-ada/ada-2021-project-madam).
 
-![TeXt Theme Details](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-layouts.png)
+### Abstract
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+Gender equality is a long-fought battle, one that has already taken long strides. But has it been enough? In this project we will analyze whether there is still a fundamental difference in the way quotes from men vs women are handled by various news sources. More than simply the representativity of genders, we want to study the content of the quotes. Is there a difference in the topics men or women are cited on? What is the overall sentiment (positive or negative) associated with the quotes? What kind of language is cited?
+News sources have the power to influence society on a large scale, and biases can be easily propagated. Via the choice of quotes, by their content or sentiment, it is entirely possible to reflect an image (potentially distorted) of a group of people. Is that happening?
 
-**[Change Log](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/CHANGELOG.md)** | **[中文](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/README-zh.md)**
+### Research Questions
 
-## Features
+We hope to answer the following questions.
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+- What is the representativity of quotes by gender, and how has it evolved?
+- Which are the main topics in the quotes from different genders?
+- What is the sentiment (negative, neutral, positive) associated with the quotes by gender, distributed by themes? *
+- What is the complexity of the speech quoted?
 
-## Skins
+Furthermore, we want to study a couple of very influential websites, some liberal some conservative, and compare the sentiment and portion of the quotes by gender, to decide which ones have a more equalitarian roster of quotes.
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+\*While quotes are inherently unchangeable, the context in which they are used, and the predominance of their sentiment, can reveal information about the sources' predisposition towards the quoted. Concretely, if a newspaper tendentially selects quotes with a negative sentiment for women, while mainly neutral/positive for men, this could be a display of an internal bias that is being propagated to the reader.
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
-
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
-
-### Highlight Theme
-
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
-
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
-
-## Documentation
-
-### Start
-
-- [Quick Start](https://tianqi.name/jekyll-TeXt-theme/docs/en/quick-start)
-- [Update from 1.x to 2.x](https://tianqi.name/jekyll-TeXt-theme/docs/en/update-from-1-to-2)
-
-### Customization
-
-- [Configuration](https://tianqi.name/jekyll-TeXt-theme/docs/en/configuration)
-- [Navigation](https://tianqi.name/jekyll-TeXt-theme/docs/en/navigation)
-- [Layouts](https://tianqi.name/jekyll-TeXt-theme/docs/en/layouts)
-- [Logo and Favicon](https://tianqi.name/jekyll-TeXt-theme/docs/en/logo-and-favicon)
-- [Authors](https://tianqi.name/jekyll-TeXt-theme/docs/en/authors)
-- [Internationalization](https://tianqi.name/jekyll-TeXt-theme/docs/en/i18n)
-
-### Content
-
-- [Writing Posts](https://tianqi.name/jekyll-TeXt-theme/docs/en/writing-posts)
-- [Additional styles](https://tianqi.name/jekyll-TeXt-theme/docs/en/additional-styles)
-- [Extensions](https://tianqi.name/jekyll-TeXt-theme/docs/en/extensions)
-- [Markdown Enhancements](https://tianqi.name/jekyll-TeXt-theme/docs/en/markdown-enhancements)
-
-## Demo Pages
-
-| Name | Description |
-| --- | --- |
-| [Home](https://tianqi.name/jekyll-TeXt-theme/test/) | Home page |
-| [Archive](https://tianqi.name/jekyll-TeXt-theme/archive.html) | Archive page |
-| [Layout Examples](https://tianqi.name/jekyll-TeXt-theme/samples.html) | Examples for different layouts |
-
-## License
-
-TeXt Theme is [MIT licensed](https://github.com/kitian616/jekyll-TeXt-theme/blob/master/LICENSE).
+### The team
+- André
+- Medya
+- Khanh
+- Tomás

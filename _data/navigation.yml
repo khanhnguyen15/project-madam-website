@@ -1,13 +1,12 @@
 header:
-  # - titles:
-  #     # @start locale config
-  #     en      : &EN       About
-  #     en-GB   : *EN
-  #     en-US   : *EN
-  #     en-CA   : *EN
-  #     en-AU   : *EN
-  #     # @end locale config
-  #   url: website/about.html
+  - titles:
+      en      : &EN       View Analysis Code on Github
+      en-GB   : *EN
+      en-US   : *EN
+      en-CA   : *EN
+      en-AU   : *EN
+      # @end locale config
+    url: https://github.com/epfl-ada/ada-2021-project-madam
 
   # - titles:
   #     # @start locale config
