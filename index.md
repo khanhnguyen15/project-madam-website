@@ -159,7 +159,9 @@ Another metric which can be used to spot bias is the text complexity[^3]. It is 
 
 [^3]: There are several formulas to calculate text complexity. For our purposes, we used the [Dale-Chall Reability Formula](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula)
 
-Here we will focus mainly on the differences between men and women, as we didn't find any significant trends on the minority genders. Moreover, we will split our sources into liberal and conservative, and see how they handle the text complexity for men and women. On the graphs below we show the differences in text complexity by men and women, for a series of conservative and liberal news sources. These results were obtained by averaging out the data from the 6 years available, and the error bars represent the standard deviation of the difference between the two complexities.
+Here we will focus mainly on the differences between men and women, as we didn't find any significant trends on the minority genders. Moreover, we will split our sources into liberal and conservative, and see how they handle the text complexity.
+
+On the plots below we show the differences in text complexity by men and women, for a series of conservative and liberal news sources. These results were obtained by averaging out the data from the 6 years available, and the error bars represent the standard deviation of the difference between the two complexities.
 
 <iframe src="plots/text_complexity_cons.html" height="500" width="100%" style="border:none;" scrolling="no"> </iframe>
 
@@ -171,6 +173,8 @@ The bars show the difference of complexity between men and women, and hovering o
 .tablelines table, .tablelines td, .tablelines th {
         border: 1px solid black;
         padding: 5px;
+        margin-left: auto;
+        margin-right: auto;
         }
 </style>
 
