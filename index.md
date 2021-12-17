@@ -253,5 +253,5 @@ In conclusion, we should **<em>Mind the Gender Gap</em>** prevalent in news arti
 > 
 > [Tomás Feith](https://www.linkedin.com/in/tomas-feith/)
 
-</br>
-</br>
+<br/>
+<br/>
