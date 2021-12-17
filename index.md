@@ -104,23 +104,23 @@ This shows that despite [some claims](https://www.investors.com/politics/editori
 
 Not everything in the world is about business though... On a more emotional note, we want to explore the sentiment present in these quotes: are they mainly positive, negative or neutral?
 
-For this analysis, we compare quotes by their sentiment scores, which can take up values between -1 and 1. A sentiment score of 0 can be regarded as a neutral quote, while positive and negative scores represent positive and negative quotes respectively.
+For this analysis, we compare quotes by their sentiment scores, which can take up values between -1 and 1[^2]. A sentiment score of 0 can be regarded as a neutral quote, while positive and negative scores represent positive and negative quotes respectively.
+
+[^2]: For sentiment score calculation we used nltk's sentiment intensity analyzer.[nltk sentiment intensity analyzer](https://www.nltk.org/api/nltk.sentiment.vader.html)
 
 <iframe src="plots/sent_vs_time_allgenders.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
-We can see that the average sentiment scores attached to male and female quotes lie between 0.15 and 0.26, which is close to neutral but still positive. On the other hand, quotes belonging to transgender-male, transgender-female, genderfluid and non-binary genders tend to have more oscillating average sentiment scores. For these genders, we can observe both positive and negative average scores that cover a wider range, from -0.4 to 0.7. 
+We can see that the average sentiment scores attached to male and female quotes lie between 0.15 and 0.26, which is close to neutral but still positive. On the other hand, quotes belonging to transgender-male, transgender-female, genderfluid and non-binary genders, which are aggregated in a single group named 'others', tend to have more oscillating average sentiment scores. For these genders, we can observe both positive and negative average scores that cover a wider range from -0.15 to 0.32. 
 
-<iframe src="plots/sent_vs_time_male&female.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
-
-When we focus on quotes from males and females, we see that almost consistently scores of male quotes lie above the scores of female quotes. Whereas there are no such clear patterns for other genders. Let's take a closer look into this consistent difference between male and female quotes.
+When we focus on quotes from males and females, we see that almost consistently scores of male quotes lie above the scores of female quotes. Whereas there is no such consistent pattern for other genders. Let's take a closer look into this consistent difference between male and female quotes.
 
 Let's see if this situation continues when we divide news sources into two categories as liberal and conservative. To represent these two categories, we have created 2 lists that contain some of the most popular liberal and conservative news sources according to ThoughtCo and Aelieve Digital Marketing.
 
- - Liberal news sources: CNN, Huffington Post, The New York Times, Politico, Slate, ABC News, Daily Kos, The Washington Post, 
-                            Time Magazine, The Atlantic.
- - Conservative news sources: National Review, The American Spectator, The American Conservative, The New American, 
-                                 The Washington Times, FrontPage Magazine, The Washington Free Beacon, The Blaze, 
-                                 Cybercast News Service (CNS News), Human Events.
+ - Liberal news sources: CNN, Huffington Post, The New York Times, Politico, Slate, ABC News, Daily Kos, The Washington Post,
+                         Time Magazine, The Atlantic.
+ - Conservative news sources: National Review, The American Spectator, The American Conservative, The New American,
+                              The Washington Times, FrontPage Magazine, The Washington Free Beacon, The Blaze, 
+                              Cybercast News Service (CNS News), Human Events.
     
 First, we make an overall comparison between liberal (denoted by L) and conservative (denoted by C) news sources, then take a deep dive into each website separately. 
 
@@ -138,21 +138,16 @@ The summary table above shows that the mean difference between the average senti
 
 Let's have a look at the distributions of the sentiment scores of quotes from males and females in liberal and conservative news sources.
 
-<iframe src="plots/violin_sent_lib&cons_male&female.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
+<iframe src="plots/box_sent_lib&cons_male&female.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
-From the violin-boxplot above we can directly see that there is a general shift towards more positive sentiment scores of quotes belonging to men in conservative news sources. On the other side, we see that although the median and third quartile values of sentiment scores of female quotes are very similar in both liberal and conservative news sources, the first quartile value, which falls in the area of negative sentiment, is higher in the liberal news sources.
+From the boxplot above we can directly see that there is a general shift towards more positive sentiment scores of quotes belonging to men in conservative news sources. On the other side, we see that although the median and third quartile values of sentiment scores of female quotes are very similar in both liberal and conservative news sources, the first quartile value, which falls in the area of negative sentiment, is higher in the liberal news sources.
 
-Since the variance of the distributions are similar, to see if the differences we have seen in the sentiment scores with respect to news source category L/C in the sample we have created with the chosen news sources are significant for the whole population, we perform a one-sided independent student t-test with the following null hypotheses:
+A simple significance test shows us that we have enough evidence to conclude that:
 
-    - Test 1 - H0:  The mean sentiment score of quotes from males in conservative news sources is less than that of liberal news sources.
-    - Test 2 - H0:  The mean sentiment score of quotes from females in liberal news sources is less than that of conservative news sources.
-
-<iframe src="plots/p_table.html" height="200" width="100%" style="border:none;" scrolling="no"> </iframe>
-
-Since for both tests, the p-values are less than the significance level threshold of 0.005, we have enough evidence to reject the null hypotheses and conclude that:
-
-    - The mean sentiment score of quotes from males portrayed in conservative news sources is higher than that of liberal news sources. In other words, conservative news sources tend to give more coverage to quotes with higher positivity from males compared to liberals
-    - The mean sentiment score of quotes from females portrayed in liberal news sources is greater than that of conservative news sources. In other words, liberal news sources tend to give more coverage to quotes with higher positivity from females compared to conservatives.
+ - The mean sentiment score of quotes from males portrayed in conservative news sources is higher than that of liberal news sources. 
+   In other words, conservative news sources tend to give more coverage to quotes with higher positivity from males compared to liberals
+ - The mean sentiment score of quotes from females portrayed in liberal news sources is greater than that of conservative news sources. 
+   In other words, liberal news sources tend to give more coverage to quotes with higher positivity from females compared to conservatives.
 
 Now that we had an overview of the sentiment score differences with respect to gender and news source category, let's have a closer look into the behavior of individual news sources within our representative news source lists.
 
@@ -183,9 +178,9 @@ In addition to these, we observe convergence in scores in The Washington Free Be
 
 # Text Complexity
 
-Another metric which can be used to spot bias is via the text complexity[^2]. It is true that quotes are, by their very nature, unchangeable. However, the quotes chosen can be very representative of the point of view, or the bias, of a news source. One of the possible choices is the complexity (or difficulty) of the quotes used. In fact, using very complex quotes might give the public the impression that that person is difficult to understand, or that they are intentionally complicating their speech. On the other hand, a systematic usage of very simplistic quotes might give of the illusion of trivial and basic speech.
+Another metric which can be used to spot bias is via the text complexity[^3]. It is true that quotes are, by their very nature, unchangeable. However, the quotes chosen can be very representative of the point of view, or the bias, of a news source. One of the possible choices is the complexity (or difficulty) of the quotes used. In fact, using very complex quotes might give the public the impression that that person is difficult to understand, or that they are intentionally complicating their speech. On the other hand, a systematic usage of very simplistic quotes might give of the illusion of trivial and basic speech.
 
-[^2]: There are several formulas to calculate text complexity. For our purposes, we used the [Dale-Chall Reability Formula](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula)
+[^3]: There are several formulas to calculate text complexity. For our purposes, we used the [Dale-Chall Reability Formula](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula)
 
 Here we will focus mainly on the differences between men and women, as we didn't find any significant trends on the minority genders. Moreover, we will split our sources into liberal and conservative, and see how they handle the text complexity for men and women. On the graphs below we show the differences in text complexity by men and women, for a series of conservative and liberal news sources. These results were obtained by averaging out the data from the 6 years available, and the error bars represent the standard deviation of the difference between the two complexities.
 
