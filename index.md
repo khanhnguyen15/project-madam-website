@@ -153,6 +153,10 @@ Huffington Post has the one with the biggest gaps in sentiment scores, followed 
 
 Interestingly, for conservative websites, we see small gaps all around. However, **the Washington Times presents a the biggest sentiment gap, which is positive towards men**. As for the smallest gaps, we have National Review first, followed by The American Conservative, The American Spectator and The Blaze. By looking at the sizes of the data points in the graphs, in addition to the sentimental differences, we can see that conservative news sources make less use of quotations than liberal news sources.
 
+
+<br/>
+<br/>
+
 # Text Complexity
 
 Another metric which can be used to spot bias is the text complexity[^3]. It is true that quotes are, by their very nature, unchangeable. However, the quotes chosen can be very representative of the point of view, or the bias, of a news source. One of the possible choices is the complexity (or difficulty) of the quotes used. In fact, using very complex quotes might alienate the public from the speaker. On the other hand, a systematic usage of very simplistic quotes might give of the illusion of trivial and basic speech. So a systematic usage of too difficult or too simple quotes can project the wrong impression of a group of people.
@@ -179,7 +183,6 @@ The bars show the difference of complexity between men and women, and hovering o
         }
 </style>
 
-<div align="center">
 | Score        | Interpretation                                                       |
 |--------------|----------------------------------------------------------------------|
 |4.9 or lower  | easily understood by an average 4th-grade student or lower           |
@@ -189,9 +192,8 @@ The bars show the difference of complexity between men and women, and hovering o
 |8.0 - 8.9     | easily understood by an average 11th or 12th-grade student           |
 |9.0 or higher | easily understood by an average 13th to 15th-grade (college) student |
 {: .tablelines}
-</div>
 
-We can see that, comparing the liberal to the conservative websites, the liberal ones are more prone to choose quotes of higher complexity for men than the conservatives. To compare the results we have summarised the key findings in the table below.
+It appears that liberal websites are more prone to choose quotes of higher complexity for men than conservative ones. To compare the results we have summarised the key findings in the table below.
 
 | Category     | Metric             | Value  |
 |--------------|--------------------|--------|
@@ -207,4 +209,19 @@ The results above would appear to present a slight leaning towards higher comple
 
 This is a good sign! At least in the metric of text complexity we cannot spot biases, so there seems to be some equality here. :)
 
-# Conclusion
+<br/>
+<br/>
+
+# TL;DR
+Here some of the main takeaways from all the analyses performed:
+> **About 80% of the time you see a quote on an article, it will be from a man.** This percentage has been <em>very</em> slowly decreasing throughout the past 5 years.
+> **About 80% of quoted speakers are male.** Again, a very slight decrease has been happening, together with the increase of female speakers.
+> **Men talk about business and sports, women about business and government**. Other genders tend to talk more uniformly throughout topics. **The least observed topics are Climate Change and LGBT.**
+> **Liberal websites tend to show more positive quotes from women, conservative websites do the opposite.**
+> **There is no significant difference in text complexity between men and women, both in liberal and conservative websites.** 
+
+
+<br/>
+<br/>
+
+# Final Words
