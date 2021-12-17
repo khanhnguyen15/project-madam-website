@@ -215,9 +215,13 @@ This is a good sign! At least in the metric of text complexity we cannot spot bi
 # TL;DR
 Here some of the main takeaways from all the analyses performed:
 > **About 80% of the time you see a quote on an article, it will be from a man.** This percentage has been <em>very</em> slowly decreasing throughout the past 5 years.
+
 > **About 80% of quoted speakers are male.** Again, a very slight decrease has been happening, together with the increase of female speakers.
+
 > **Men talk about business and sports, women about business and government**. Other genders tend to talk more uniformly throughout topics. **The least observed topics are Climate Change and LGBT.**
+
 > **Liberal websites tend to show more positive quotes from women, conservative websites do the opposite.**
+
 > **There is no significant difference in text complexity between men and women, both in liberal and conservative websites.** 
 
 
