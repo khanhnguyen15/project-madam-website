@@ -169,7 +169,7 @@ On the plots below we show the differences in text complexity by men and women, 
 
 The bars show the difference of complexity between men and women, and hovering over the bars we may see the actual values for men and women. There is a [conversion table](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula) that translates these numbers into an approximation of school level needed to understand the text. We present it below for convenience.
 
-<style align="center">
+<style>
 .tablelines table, .tablelines td, .tablelines th {
         border: 1px solid black;
         padding: 5px;
@@ -179,6 +179,7 @@ The bars show the difference of complexity between men and women, and hovering o
         }
 </style>
 
+<div align="center">
 | Score        | Interpretation                                                       |
 |--------------|----------------------------------------------------------------------|
 |4.9 or lower  | easily understood by an average 4th-grade student or lower           |
@@ -188,6 +189,7 @@ The bars show the difference of complexity between men and women, and hovering o
 |8.0 - 8.9     | easily understood by an average 11th or 12th-grade student           |
 |9.0 or higher | easily understood by an average 13th to 15th-grade (college) student |
 {: .tablelines}
+</div>
 
 We can see that, comparing the liberal to the conservative websites, the liberal ones are more prone to choose quotes of higher complexity for men than the conservatives. To compare the results we have summarised the key findings in the table below.
 
