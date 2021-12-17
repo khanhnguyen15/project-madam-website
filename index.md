@@ -114,7 +114,7 @@ The sentiment scores for men and women lie between 0.15 and 0.26, which is close
 
 On the other hand, quotes belonging to transgender-male, transgender-female, genderfluid and non-binary genders, which are aggregated in a single group named "others", tend to have more oscillating average sentiment scores. Still, **quotes from other genders tend to be more negative than for men and women**, sometimes dipping into the negative scores. For these genders, we can observe both positive and negative average scores that cover a wider range from -0.15 to 0.32. This was to be expected since most of the times we hear, for example, transgender speakers in the news, they're talking about problems like [discrimination](https://www.nbcnews.com/feature/nbc-out/laughed-out-interviews-trans-workers-discuss-job-discrimination-n1063041), [bad healthcare](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4802845/), or [unfair legislation](https://www.nbcnews.com/nbc-out/out-news/two-transgender-children-sue-tennessee-school-bathroom-law-rcna1558).
 
-Ohh and if you are wondering what might be the cause of the negative spikes of other genders around 2016, here is the story: (North Carolina governor signs controversial transgender bill)[https://edition.cnn.com/2016/03/23/politics/north-carolina-gender-bathrooms-bill/index.html].
+Ohh and if you are wondering what might be the cause of the negative spikes of other genders around 2016, here is the story: [North Carolina governor signs controversial transgender bill](https://edition.cnn.com/2016/03/23/politics/north-carolina-gender-bathrooms-bill/index.html).
 
 ## Liberal vs Conservative
 
