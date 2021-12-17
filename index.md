@@ -145,27 +145,11 @@ Now that we had an overview of the sentiment score differences with respect to g
 
 <iframe src="plots/websites_L.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
-We can see that among the selected liberal news sources The New York Times is the one that portrays quotes with the most similar sentiment scores from males and females, followed by Slate, The Atlantic, Politico and CNN. Whereas Huffington Post is the one with the biggest difference in sentiment scores, followed by Time Magazine. We can also note that 9 out of 10 of the representative liberal news sources have quotes with higher sentiment scores from females, only 1 has a reversed trend, which is The Washington Post. 
+We can see that among the selected liberal news sources The New York Times is the one that portrays quotes with the most similar sentiment scores from males and females, followed by Slate, The Atlantic, Politico and CNN. Whereas Huffington Post is the one with the biggest difference in sentiment scores, followed by Time Magazine. We can also note that 9 out of 10 of the representative liberal news sources have quotes with higher sentiment scores from females, only 1 has a reversed trend, which is The Washington Post.
 
 <iframe src="plots/websites_C.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
-We can see that among the selected conservative news sources National Review is the one that portrays quotes with the most similar sentiment scores from males and females, followed by The American Conservative, The American Spectator and The Blaze. Whereas The Washington Times is the one having the biggest difference in sentiment scores. It also constitutes the majority of the quotes in the conservative group and therefore is an important factor in the trend towards more positive quotes from men in conservative news sources.
-By looking at the sizes of the data points in the graphs, in addition to the sentimental differences, we can see that liberal news sources make use of quotations more than conservative news sources.
-
-Let's see how the sentimental difference and the usage of quotations changed over the years.
-
-<iframe src="plots/websites_L_time.html" height="800" width="100%" style="border:none;" scrolling="no"> </iframe>
-
-We see that over the years the trend of the sentiment scores remained similar in liberal news sources. The New York Times has the closest scores and all news sources portray higher sentiment scored quotes from females except for The Washington Post.
-In addition to these, we observe convergence in scores in CNN, Politico and The Atlantic. Also, the number of quotes used in the Huffington Post, Daily Kos and ABCnews decreased over the years.
-
-<iframe src="plots/websites_C_time.html" height="800" width="100%" style="border:none;" scrolling="no"> </iframe>
-
-For conservative news sources we see that over the years while the trend of the sentiment scores remained similar for The Washington Times, it changes for the other websites. For example, in 2015 sentiment scores of quotes from males is higher than females for The Blaze, however, in 2016 the situation takes a u-turn.
-
-In addition to these, we observe convergence in scores in The Washington Free Beacon but a divergence in The Washington Times and The Blaze. Also, the number of quotes used in CNSNews and The Blaze decreased over the years.
-
-
+We can see that among the selected conservative news sources National Review is the one that portrays quotes with the most similar sentiment scores from males and females, followed by The American Conservative, The American Spectator and The Blaze. Whereas Human Events and The Washington Times are the ones having the biggest difference in sentiment scores. The Washington Times also constitutes the majority of the quotes in the conservative group and therefore is an important factor in the trend towards more positive quotes from men in conservative news sources. By looking at the sizes of the data points in the graphs, in addition to the sentimental differences, we can see that conservative news sources make less use of quotations than liberal news sources.
 
 
 # Text Complexity
