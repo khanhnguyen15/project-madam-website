@@ -237,6 +237,9 @@ In conclusion, we should **<em>Mind the Gender Gap</em>** prevalent in news arti
 
 # The team
 > [André Charneca](https://www.linkedin.com/in/andr%C3%A9-charneca-664018222/)
+> 
 > [Khanh Nguyen](link) 
+> 
 > [Medya Tekeş](https://www.linkedin.com/in/medya-teke%C5%9F-m%C4%B1zrakl%C4%B1-7318a613a/)
+> 
 > [Tomás Feith](https://www.linkedin.com/in/tomas-feith/)
