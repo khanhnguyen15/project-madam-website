@@ -173,6 +173,7 @@ The bars show the difference of complexity between men and women, and hovering o
 .tablelines table, .tablelines td, .tablelines th {
         border: 1px solid black;
         padding: 5px;
+        text-align: center;
         margin-left: auto;
         margin-right: auto;
         }
@@ -200,8 +201,8 @@ We can see that, comparing the liberal to the conservative websites, the liberal
 | Conservative | Mean Female Scores | 10.339 |
 {: .tablelines}
 
-The results above would appear to present a slight leaning towards higher complexity for male, however a quick statistical test will prove that there is no statistical difference neither in the results Male vs Female neither in Liberal vs Conservative. So we cannot claim that there are any gender biases in the way quotes are handled by the news sources we selected here. 
+The results above would appear to present a slight leaning towards higher complexity for male, however a quick statistical test will prove that **there is no statistical difference neither in the results Male vs Female neither in Liberal vs Conservative**. So we cannot claim that there are any gender biases in the way quotes are handled by the news sources we selected here. 
 
-This is a good sign! At least in the metric of text complexity we cannot spot biases, so there seems to be some equality here :)
+This is a good sign! At least in the metric of text complexity we cannot spot biases, so there seems to be some equality here. :)
 
 # Conclusion
