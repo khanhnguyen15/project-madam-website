@@ -118,7 +118,11 @@ Ohh and if you are wondering what might be the cause of the negative spikes of o
 
 ## Liberal vs Conservative
 
-Focusing on males and females, we'll see if the difference we have seen in sentiment scores continues when we divide news sources into two categories: liberal and conservative. We have created 2 lists that contain some of the most popular liberal and conservative news sources according to ThoughtCo and Aelieve Digital Marketing.
+Focusing on males and females, we'll see if the difference we have seen in sentiment scores continues when we divide news sources into two categories: liberal and conservative. We have created 2 lists that contain some of the most popular liberal and conservative news sources according to Aelieve Digital Marketing [^3] and ThoughtCo [^4].[^5]
+
+[^3]: Representative liberal news sources from: [Top 20 Most Visited Liberal Websites](https://aelieve.com/rankings/websites/category/news-media/top-liberal-websites/)
+[^4]: Representative conservative news sources from: [Top 9 Conservative News and Opinion Websites](https://www.thoughtco.com/the-top-conservative-news-and-opinion-websites-3303614)
+[^5]: Representative conservative news sources from: [The Top 10 Conservative Magazines](https://www.thoughtco.com/top-conservative-magazines-3303617)
 
  - Liberal news sources: CNN, Huffington Post, The New York Times, Politico, Slate, ABC News, Daily Kos, The Washington Post,
                          Time Magazine, The Atlantic.
@@ -161,9 +165,9 @@ Interestingly, for conservative websites, we see small gaps all around. However,
 
 # Text Complexity
 
-Another metric that can be used to spot bias is the text complexity[^3]. Quotes are, by their very nature, unchangeable. However, the quotes chosen can be very representative of the point of view, or the bias, of a news source. One of the possible choices is the complexity (or difficulty) of the quotes used. Using very complex quotes might alienate the public from the speaker. On the other hand, a systematic usage of very simplistic quotes might give the illusion of trivial and basic speech. So a systematic usage of too difficult or too simple quotes can project the wrong impression of a group of people.
+Another metric that can be used to spot bias is the text complexity[^6]. Quotes are, by their very nature, unchangeable. However, the quotes chosen can be very representative of the point of view, or the bias, of a news source. One of the possible choices is the complexity (or difficulty) of the quotes used. Using very complex quotes might alienate the public from the speaker. On the other hand, a systematic usage of very simplistic quotes might give the illusion of trivial and basic speech. So a systematic usage of too difficult or too simple quotes can project the wrong impression of a group of people.
 
-[^3]: There are several formulas to calculate text complexity. For our purposes, we used the [Dale-Chall Readability Formula](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula)
+[^6]: There are several formulas to calculate text complexity. For our purposes, we used the [Dale-Chall Readability Formula](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula)
 
 Here we will focus mainly on the differences between men and women, as we didn't find any significant trends on the minority genders. Moreover, we will split our sources into liberal and conservative, and see how they handle the text complexity.
 
