@@ -217,3 +217,5 @@ We can see that, comparing the liberal to the conservative websites, the liberal
 The results above would appear to present a slight leaning towards higher complexity for male, however a quick statistical test will prove that there is no statistical difference neither in the results Male vs Female neither in Liberal vs Conservative. So we cannot claim that there are any gender biases in the way quotes are handled by the news sources we selected here. 
 
 This is a good sign! At least in the metric of text complexity we cannot spot biases, so there seems to be some equality here :)
+
+# Conclusion
