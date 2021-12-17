@@ -194,15 +194,22 @@ Here we will focus mainly on the differences between men and women, as we didn't
 
 The bars show the difference of complexity between men and women, and hovering over the bars we may see the actual values for men and women. There is a [conversion table](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula) that translates these numbers into an approximation of school level needed to understand the text. We present it below for convenience.
 
+<style>
+.tablelines table, .tablelines td, .tablelines th {
+        border: 1px solid black;
+        padding: 5px;
+        }
+</style>
+
 | Score        | Interpretation                                                       |
 |--------------|----------------------------------------------------------------------|
-
 |4.9 or lower  | easily understood by an average 4th-grade student or lower           |
 |5.0 - 5.9     | easily understood by an average 5th or 6th-grade student             |
 |6.0 - 6.9     | easily understood by an average 7th or 8th-grade student             |
 |7.0 - 7.9     | easily understood by an average 9th or 10th-grade student            |
 |8.0 - 8.9     | easily understood by an average 11th or 12th-grade student           |
 |9.0 or higher | easily understood by an average 13th to 15th-grade (college) student |
+{: .tablelines}
 
 We can see that, comparing the liberal to the conservative websites, the liberal ones are more prone to choose quotes of higher complexity for men than the conservatives. To compare the results we have summarised the key findings in the table below.
 
@@ -214,6 +221,7 @@ We can see that, comparing the liberal to the conservative websites, the liberal
 | Conservative | Mean Difference    | +0.119 |
 | Conservative | Mean Male Scores   | 10.458 |
 | Conservative | Mean Female Scores | 10.339 |
+{: .tablelines}
 
 The results above would appear to present a slight leaning towards higher complexity for male, however a quick statistical test will prove that there is no statistical difference neither in the results Male vs Female neither in Liberal vs Conservative. So we cannot claim that there are any gender biases in the way quotes are handled by the news sources we selected here. 
 
