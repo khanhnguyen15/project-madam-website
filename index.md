@@ -182,7 +182,7 @@ In addition to these, we observe convergence in scores in The Washington Free Be
 
 # Text Complexity
 
-Another metric which can be used to spot bias is via the text complexity[^3]. It is true that quotes are, by their very nature, unchangeable. However, the quotes chosen can be very representative of the point of view, or the bias, of a news source. One of the possible choices is the complexity (or difficulty) of the quotes used. In fact, using very complex quotes might give the public the impression that that person is difficult to understand, or that they are intentionally complicating their speech. On the other hand, a systematic usage of very simplistic quotes might give of the illusion of trivial and basic speech.
+Another metric which can be used to spot bias is the text complexity[^3]. It is true that quotes are, by their very nature, unchangeable. However, the quotes chosen can be very representative of the point of view, or the bias, of a news source. One of the possible choices is the complexity (or difficulty) of the quotes used. In fact, using very complex quotes might alienate the public from the speaker. On the other hand, a systematic usage of very simplistic quotes might give of the illusion of trivial and basic speech. So a systematic usage of too difficult or too simple quotes can project the wrong impression of a group of people.
 
 [^3]: There are several formulas to calculate text complexity. For our purposes, we used the [Dale-Chall Reability Formula](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula)
 
@@ -191,3 +191,29 @@ Here we will focus mainly on the differences between men and women, as we didn't
 <iframe src="plots/text_complexity_cons.html" height="500" width="100%" style="border:none;" scrolling="no"> </iframe>
 
 <iframe src="plots/text_complexity_libr.html" height="500" width="100%" style="border:none;" scrolling="no"> </iframe>
+
+The bars show the difference of complexity between men and women, and hovering over the bars we may see the actual values for men and women. These is a [conversion table](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula) that translates these numbers into an approximation of school level needed to understand the text. We present it below for convenience.
+
+| Score        | Interpretation                                                       |
+|--------------|----------------------------------------------------------------------|
+|4.9 or lower  | easily understood by an average 4th-grade student or lower           |
+|5.0 - 5.9     | easily understood by an average 5th or 6th-grade student             |
+|6.0 - 6.9     | easily understood by an average 7th or 8th-grade student             |
+|7.0 - 7.9     | easily understood by an average 9th or 10th-grade student            |
+|8.0 - 8.9     | easily understood by an average 11th or 12th-grade student           |
+|9.0 or higher | easily understood by an average 13th to 15th-grade (college) student |
+
+We can see that, comparing the liberal to the conservative websites, the liberal ones are more prone to choose quotes of higher complexity for men than the conservatives. To compare the results we have summarised the key findings in the table below.
+
+| Category     | Metric             | Value  |
+|--------------|--------------------|--------|
+| Liberal      | Mean Difference    | +0.298 |
+| Liberal      | Mean Male Scores   | 9.707  |
+| Liberal      | Mean Female Scores | 9.410  |
+| Conservative | Mean Difference    | +0.119 |
+| Conservative | Mean Male Scores   | 10.458 |
+| Conservative | Mean Female Scores | 10.339 |
+
+The results above would appear to present a slight leaning towards higher complexity for male, however a quick statistical test will prove that there is no statistical difference neither in the results Male vs Female neither in Liberal vs Conservative. So we cannot claim that there are any gender biases in the way quotes are handled by the news sources we selected here. 
+
+This is a good sign! At least in the metric of text complexity we cannot spot biases, so there seems to be some equality here :)
