@@ -100,23 +100,23 @@ This shows that despite [some claims](https://www.investors.com/politics/editori
 <br/>
 <br/>
 
-# Sentimental Analysis
+# Sentiment Analysis
 
 Not everything in the world is about business though... On a more emotional note, we want to explore the sentiment present in these quotes: are they mainly positive, negative or neutral?
 
-For this analysis, we compare quotes by their sentiment scores, which can take up values between -1 and 1 [^2]. A sentiment score of 0 can be regarded as a neutral quote, while positive and negative scores represent positive and negative quotes respectively.
+For this analysis, we compare quotes by their sentiment scores, which can take values between -1 and 1 [^2]. A sentiment score of 0 can be regarded as a neutral quote, while positive and negative scores represent positive and negative sentiment in quotes, respectively.
 
 [^2]: For sentiment score calculation we used nltk's sentiment intensity analyzer.[nltk sentiment intensity analyzer](https://www.nltk.org/api/nltk.sentiment.vader.html)
 
 <iframe src="plots/sent_vs_time_allgenders.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
-We can see that the average sentiment scores attached to male and female quotes lie between 0.15 and 0.26, which is close to neutral but still positive. On the other hand, quotes belonging to transgender-male, transgender-female, genderfluid and non-binary genders, which are aggregated in a single group named 'others', tend to have more oscillating average sentiment scores. For these genders, we can observe both positive and negative average scores that cover a wider range from -0.15 to 0.32. 
+The sentiment scores for men and women lie between 0.15 and 0.26, which is close to neutral but still positive. However, **male quotes tend to be more positive than female ones** pretty consistently throughout the years.
 
-When we focus on quotes from males and females, we see that almost consistently scores of male quotes lie above the scores of female quotes. Whereas there is no such consistent pattern for other genders. Let's take a closer look into this consistent difference between male and female quotes.
+On the other hand, quotes belonging to transgender-male, transgender-female, genderfluid and non-binary genders, which are aggregated in a single group named "others", tend to have more oscillating average sentiment scores. Still, **quotes from other genders tend to be more negative than for men and women**, sometimes dipping into the negative scores. For these genders, we can observe both positive and negative average scores that cover a wider range from -0.15 to 0.32. This was to be expected since most of the times we hear, say, transgender speakers in the news, they're talking about problems like [discrimination](https://www.nbcnews.com/feature/nbc-out/laughed-out-interviews-trans-workers-discuss-job-discrimination-n1063041), [bad healthcare](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4802845/) or [unfair legislation](https://www.nbcnews.com/nbc-out/out-news/two-transgender-children-sue-tennessee-school-bathroom-law-rcna1558).
 
 ## Liberal vs Conservative
 
-Let's see if the difference we have seen in sentiment scores continues when we divide news sources into two categories as liberal and conservative. To represent these two categories, we have created 2 lists that contain some of the most popular liberal and conservative news sources according to ThoughtCo and Aelieve Digital Marketing.
+Focusing on male and female, we'll see if the difference we have seen in sentiment scores continues when we divide news sources into two categories as liberal and conservative. To represent these two categories, we have created 2 lists that contain some of the most popular liberal and conservative news sources according to ThoughtCo and Aelieve Digital Marketing.
 
  - Liberal news sources: CNN, Huffington Post, The New York Times, Politico, Slate, ABC News, Daily Kos, The Washington Post,
                          Time Magazine, The Atlantic.
