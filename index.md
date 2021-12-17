@@ -10,7 +10,7 @@ aside:
 This is the final project for the Applied Data Analysis course, EPFL.
 
 ## What?
-In this project we plan to explore the differences in the representation of different genders in quotations from news websites, from January 2015 to April 2020, using data from [Quotebank](https://dlab.epfl.ch/people/west/pub/Vaucher-Spitz-Catasta-West_WSDM-21.pdf).  We will explore the following genders: male, female, transgender male, transgender female, non-binary and genderfluid, but mostly focusing on men and women.
+In this project we plan to explore the differences in the representation of different genders in quotations from news websites, from January 2015 to April 2020, using data from [Quotebank](https://dlab.epfl.ch/people/west/pub/Vaucher-Spitz-Catasta-West_WSDM-21.pdf).  We will explore the following genders: male, female, transgender male, transgender female, non-binary and genderfluid, but mostly focus on men and women.
 
 ## Why?
 
@@ -31,7 +31,7 @@ This is a huge audience, and by being able to choose what speakers they quote, a
 [^1]: Uncle Ben, 2002
 
 ## How?
-The dataset from Quotebank consisted of a list of around 100 million quotes featured in news articles in English, from January 2015 to April 2020. It included information such as the most probable speakers for each quote, the number of total quotations, and the date of the first occurrence. Using data from [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), we were able to get the gender of each speaker.
+The dataset from Quotebank consisted of a list of around 100 million quotes featured in news articles in English, from January 2015 to April 2020. It included information such as the most probable speakers for each quote, the number of total quote occurrences (how many times a quote appeared in articles), and the date of the first occurrence. Using data from [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page), we were able to get the gender of each speaker.
 
 <br/>
 <br/>
@@ -39,7 +39,7 @@ The dataset from Quotebank consisted of a list of around 100 million quotes feat
 # Initial Analysis
 
 ## Not your usual 80-20 rule
-Just to see how things are generally doing, we'll plot the percentage of quote occurrences by gender (the total number of times speakers of different genders were quoted) and the percentage of speakers by gender. On the plots below, the genders other than male or female are essencially not visible. If you wish to see their evolution over time simply deselect the male and female lines from the legend on the right.
+Just to see how things are generally doing, we'll plot the percentage of quote occurrences by gender (the total number of times speakers of different genders were quoted) and the percentage of speakers by gender. On the plots below, the genders other than male or female are essencially not visible. If you wish to see their evolution over time, simply deselect the male and female lines from the legend on the right.
 
 <iframe src="plots/perc_quotations.html" height="600" width="100%" style="border:none;" scrolling="no"> </iframe>
 
@@ -49,7 +49,7 @@ All the other genders are massively underrepresented in news articles, most of t
 
 <iframe src="plots/perc_speakers.html" height="600" width="100%" style="border:none;" scrolling="no"> </iframe>
 
-Now you might be thinking: "Of course men get quoted way more often because they have very influential people like Donald Trump and Barack Obama". Well, yes but actually no. If we look at the <em>percentage of speakers by gender</em>, it looks just about the same. Around **80% of quoted speakers are male**, with a very slight decrease of 2% over the past 5 years. **In genders other than male and female, transgender female speakers dominate at around 0.08%**.
+Now you might be thinking: "Of course men get quoted way more often, they have very influential people like Donald Trump and Barack Obama". Well, yes but actually no. If we look at the <em>percentage of speakers by gender</em>, it looks just about the same. Around **80% of quoted speakers are male**, with a very slight decrease of 2% over the past 5 years. **In genders other than male and female, transgender female speakers dominate at around 0.08%**.
 
 ## Trump, Trump, and more Trump
 
@@ -58,7 +58,7 @@ Now you might be thinking: "Of course men get quoted way more often because they
 Above are the top speakers of every month by gender and, to no one’s surprise, **Trump is the most quoted speaker of the last 5 years**. Since the beginning of 2016, when the presidential race started going strong, the former President of the USA has consistently been the most quoted speaker almost every month. In the months when he is the top speaker, **Trump averages around 117,000 monthly quote occurrences**. That is more than **6 times the amount for the top speakers of all other genders <em>combined</em>**.
 
 ## First Impressions: Not great...
-These initial numbers don't look too promising. Men dominate in every plot we've seen, by a big margin. Now that we have a general idea of how (badly) things are going, let's dive deeper and try to find how exactly <em>what</em> each gender is talking about.
+These initial numbers don't look too promising. Men dominate in every plot we've seen, by a big margin. Now that we have a general idea of how (badly) things are going, let's dive deeper and try to find exactly <em>what</em> each gender tends to talk about.
 
 <br/>
 <br/>
@@ -83,11 +83,13 @@ Let’s start with the percentage of words from different genders that fall into
 <iframe src="plots/topic_in_gender.html" height="750" width="100%" style="border:none;" scrolling="no"> </iframe>
 
 The main takeaways from here are: 
- - **Men tend to talk more about business and sports**
- - **Women tend towards business and government**
- - **The topics men and women talk the least about are LGBT and Climate Change** 
+ > **Men tend to talk more about business and sports**
+ 
+ > **Women tend towards business and government**
+ 
+ > **The topics men and women talk the least about are LGBT and Climate Change** 
 
-As far as the minority genders are concerned, they present a lot more fluctuations (partly due to the smaller sample size). Surprisingly, they follow the trends set by the men and women fairly well. In fact, their least significant topics are LGBT and Climate Change (except for some occasional spikes). This is actually good news because it means that people from genders other than male and female aren't getting cherry-picked to be used as tokens in certain topics. If that were the case we would expect, in particular, to see a signficant dominance of LGBT topics, which is not the case. It is true, they are widely under-represented, but at least they are getting a say in about the same topics as everybody, in the same ratio.
+As far as the minority genders are concerned, they present a lot more fluctuations (partly due to the smaller sample size). Surprisingly, they follow the trends set by the men and women fairly well. In fact, their least significant topics are LGBT and Climate Change (except for some occasional spikes). This is, in a way, good news because it means that people from genders other than male and female aren't getting cherry-picked to be used as tokens in certain topics. If that were the case we would expect, in particular, to see a signficant dominance of the LGBT topic, which is not the case. It is true: they are widely under-represented, but at least they are getting a say in about the same topics as everybody, in the same ratio.
 
 Now, for the distributions of genders in each topic, see the plot below.
 
@@ -114,11 +116,11 @@ The sentiment scores for men and women lie between 0.15 and 0.26, which is close
 
 On the other hand, quotes belonging to transgender-male, transgender-female, genderfluid and non-binary genders, which are aggregated in a single group named "others", tend to have more oscillating average sentiment scores. Still, **quotes from other genders tend to be more negative than for men and women**, sometimes dipping into the negative scores. For these genders, we can observe both positive and negative average scores that cover a wider range from -0.15 to 0.32. This was to be expected since most of the times we hear, for example, transgender speakers in the news, they're talking about problems like [discrimination](https://www.nbcnews.com/feature/nbc-out/laughed-out-interviews-trans-workers-discuss-job-discrimination-n1063041), [bad healthcare](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4802845/), or [unfair legislation](https://www.nbcnews.com/nbc-out/out-news/two-transgender-children-sue-tennessee-school-bathroom-law-rcna1558).
 
-Ohh and if you are wondering what might be the cause of the negative spikes of other genders around 2016, here is the story: [North Carolina governor signs controversial transgender bill](https://edition.cnn.com/2016/03/23/politics/north-carolina-gender-bathrooms-bill/index.html).
+Oh and if you are wondering what might be the cause of the negative spikes of other genders around 2016, here might be one of the causes: [North Carolina governor signs controversial transgender bill](https://edition.cnn.com/2016/03/23/politics/north-carolina-gender-bathrooms-bill/index.html).
 
 ## Liberal vs Conservative
 
-Focusing on males and females, we'll see if the difference we have seen in sentiment scores continues when we divide news sources into two categories: liberal and conservative. We have created 2 lists that contain some of the most popular liberal and conservative news sources according to Aelieve Digital Marketing [^3] and ThoughtCo [^4]  [^5].
+Focusing on males and females, we'll see if the difference we have seen in sentiment scores persists when we divide news sources into two categories: liberal and conservative. We have created 2 lists that contain some of the most popular liberal and conservative news sources according to Aelieve Digital Marketing [^3] and ThoughtCo [^4]  [^5].
 
 [^3]: Representative liberal news sources from: [Top 20 Most Visited Liberal Websites](https://aelieve.com/rankings/websites/category/news-media/top-liberal-websites/)
 [^4]: Representative conservative news sources from: [Top 9 Conservative News and Opinion Websites](https://www.thoughtco.com/the-top-conservative-news-and-opinion-websites-3303614)
@@ -153,7 +155,7 @@ Now that we had an overview of the sentiment score differences concerning gender
 
 Among liberal news sources, the **New York Times is the most "sentimentally" even source**, with a close gap between male and female sentiment, followed by Slate, The Atlantic, Politico, and CNN.
 
-Huffington Post has the one with the biggest gaps in sentiment scores, followed by Time Magazine. We can also note that 9 out of 10 of the representative liberal news sources have quotes with higher sentiment scores from females, only 1 has a reversed trend, which is The Washington Post.
+Huffington Post has the biggest liberal gap in sentiment scores, followed by Time Magazine. We can also note that 9 out of 10 of the representative liberal news sources have quotes with higher sentiment scores from females, only 1 has a reversed trend, which is The Washington Post.
 
 <iframe src="plots/websites_C.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
@@ -169,9 +171,9 @@ Another metric that can be used to spot bias is the text complexity[^6]. Quotes 
 
 [^6]: There are several formulas to calculate text complexity. For our purposes, we used the [Dale-Chall Readability Formula](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula)
 
-Here we will focus mainly on the differences between men and women, as we didn't find any significant trends on the minority genders. Moreover, we will split our sources into liberal and conservative, and see how they handle the text complexity.
+Here, we will focus mainly on the differences between men and women, as we didn't find any significant trends on the minority genders. Moreover, we will split our sources into liberal and conservative, and see how they handle the text complexity.
 
-On the plots below we show the differences in text complexity by men and women, for a series of conservative and liberal news sources. These results were obtained by averaging out the data from the 6 years available, and the error bars represent the standard deviation of the difference between the two complexities.
+On the plots below we show the differences in text complexity by men and women, for a series of conservative and liberal news sources. These results were obtained by averaging out the data from the all years available, and the error bars represent the standard deviation of the difference between the two complexities.
 
 <iframe src="plots/text_complexity_cons.html" height="500" width="100%" style="border:none;" scrolling="no"> </iframe>
 
@@ -213,7 +215,7 @@ It appears that liberal websites are more prone to choose quotes of higher compl
 | Conservative | Mean Female Scores | 10.339 |
 {: .tablelines}
 
-The results above would appear to present a slight leaning towards higher complexity for males, and a quick statistical test will prove that these results are **extremely statistically significant**, both in the differences between gender and in the differences between news sources. That means we can say with high confidence that conservative news sources choose more complex quotes than liberals, and that both of them choose systematically more complex quotes for men than for women. 
+The results above would appear to present a **slight leaning towards higher complexity for males**, and a quick statistical test will prove that these results are **statistically significant** with a confidence level of 99%, both in the differences between gender and in the differences between news sources. That means we can say with high confidence that conservative news sources choose more complex quotes than liberal ones, and that **both of them choose systematically more complex quotes for men than for women**. 
 
 However, given that in general we have high levels of complexity for all the groups considered on the table above, it will not reflect in a very big change of public perception in that respect. Nevertheless, it is good to keep in mind that here we found yet another bias.
 
@@ -224,23 +226,23 @@ However, given that in general we have high levels of complexity for all the gro
 Here are some of the main takeaways from all the analyses performed:
 > **About 80% of the time you see a quote in an article, it will be from a man.** This percentage has been <em>very</em> slowly decreasing throughout the past 5 years.
 
-> **About 80% of quoted speakers are male.** Again, a very slight decrease has been happening, together with the increase of female speakers.
+> **About 80% of quoted speakers are male.** Again, a very slight decrease has been happening, together with the increase of female speakers. No positive trend observed in transgender, genderfluid or non-binary speakers.
 
 > **Men talk about business and sports, women about business and government**. Other genders tend to talk more uniformly throughout topics. **The least observed topics are Climate Change and LGBT all around.**
 
 > **Liberal websites tend to show more positive quotes from women, conservative websites do the opposite.**
 
-> **Men's quotes are in general more complex than women's quotes, and conservative news sources choose all-round more complex quotes than liberal sources.**
+> **In general, men's quotes are more complex than women's quotes, and conservative news sources choose, on average, more complex quotes than liberal sources.**
 
 <br/>
 <br/>
 
 # Final Words
-The results showed in this article do not leave us with much hope for the state of gender representation in news websites. Journalists must start making some big changes to the way they handle quotes. They need to provide a bigger platform for women and speakers from minority genders. They need to talk more about some of the most pressing issues in modern society, like Climate Change and LGBT issues. They should try to close the gaps we've seen in the quotes' sentiments.
+The results showed in this article do not leave us with much hope for the state of gender representation in news websites. Journalists must start making some big changes to the way they handle quotes. They need to provide a bigger platform for women and speakers from minority genders. They need to talk more about some of the most pressing issues in modern society, like Climate Change and LGBT issues. They should try to close the gaps we've seen in the quotes' sentiments and textual complexity.
 
-News articles reach hundreds of millions of people, and a portion of them rely almost exclusively on these articles to shape their view of the world. Therefore, gender biases in these articles can propagate into the mindsets of the population and thus into their actions. 
+News articles reach hundreds of millions of people, and a portion of them rely almost exclusively on these articles to shape their view of the world. Therefore, the gender biases present in these articles can propagate into the mindsets of the population and thus into their actions. 
 
-In conclusion, we should **<em>Mind the Gender Gap</em>** prevalent in news articles, so we can close these gaps in the minds of the writers and the readers.
+In conclusion, we should **<em>Mind the Gender Gap</em>** prevalent in news articles, so we can close these gaps in the minds of the writers and the readers (see what we did there?).
 
 # The team
 > [André Charneca](https://www.linkedin.com/in/andr%C3%A9-charneca-664018222/)
@@ -250,3 +252,6 @@ In conclusion, we should **<em>Mind the Gender Gap</em>** prevalent in news arti
 > [Medya Tekeş](https://www.linkedin.com/in/medya-teke%C5%9F-m%C4%B1zrakl%C4%B1-7318a613a/)
 > 
 > [Tomás Feith](https://www.linkedin.com/in/tomas-feith/)
+
+</br>
+</br>
