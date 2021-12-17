@@ -214,7 +214,7 @@ This is a good sign! At least in the metric of text complexity we cannot spot bi
 
 # TL;DR
 Here some of the main takeaways from all the analyses performed:
-> **About 80% of the time you see a quote on an article, it will be from a man.** This percentage has been <em>very</em> slowly decreasing throughout the past 5 years.
+> **About 80% of the time you see a quote in an article, it will be from a man.** This percentage has been <em>very</em> slowly decreasing throughout the past 5 years.
 
 > **About 80% of quoted speakers are male.** Again, a very slight decrease has been happening, together with the increase of female speakers.
 
@@ -229,3 +229,14 @@ Here some of the main takeaways from all the analyses performed:
 <br/>
 
 # Final Words
+The results showed in this article do not leave us with much hope for the future of gender representation in news websites. Journalists must start making some big changes to the way they handle quotes. They need to provide a bigger platform for women and speakers from minority genders. They need to talk more about some of the most pressing issues in modern society, like Climate Change and LGBT issues. They should try to the close gaps we've seen in the quotes' sentiments.
+
+News articles reach hundreds of millions of people, and a portion of them rely almost exclusively on these articles to shape their view of the world. Therefore, gender biases in these articles can propagate into the mindsets of the population and, in consequence, into their actions. 
+
+In conclusion, we should **<em>Mind the Gender Gap</em>** prevalent in news articles, so we can close these gaps in the minds of the readers.
+
+# The team
+> [André Charneca](https://www.linkedin.com/in/andr%C3%A9-charneca-664018222/)
+> [Khanh Nguyen](link) 
+> [Medya Tekeş](https://www.linkedin.com/in/medya-teke%C5%9F-m%C4%B1zrakl%C4%B1-7318a613a/)
+> [Tomás Feith](https://www.linkedin.com/in/tomas-feith/)
