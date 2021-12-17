@@ -141,16 +141,17 @@ For all the statistics enthusiasts out there: don't be worried. We performed a h
 
 ## News Source Deep Dive
 
-Now that we had an overview of the sentiment score differences with respect to gender and news source category, let's have a closer look into the behavior of individual news sources within our representative news source lists.
+Now that we had an overview of the sentiment score differences with respect to gender and news source category, let's have a closer look into the behavior of individual news sources.
 
 <iframe src="plots/websites_L.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
-We can see that among the selected liberal news sources The New York Times is the one that portrays quotes with the most similar sentiment scores from males and females, followed by Slate, The Atlantic, Politico and CNN. Whereas Huffington Post is the one with the biggest difference in sentiment scores, followed by Time Magazine. We can also note that 9 out of 10 of the representative liberal news sources have quotes with higher sentiment scores from females, only 1 has a reversed trend, which is The Washington Post.
+Among liberal news sources, the **New York Times is the most "sentimentally" even source**, with a close gap between male and female sentiment, followed by Slate, The Atlantic, Politico and CNN.
+
+Huffington Post has the one with the biggest gaps in sentiment scores, followed by Time Magazine. We can also note that 9 out of 10 of the representative liberal news sources have quotes with higher sentiment scores from females, only 1 has a reversed trend, which is The Washington Post.
 
 <iframe src="plots/websites_C.html" height="700" width="100%" style="border:none;" scrolling="no"> </iframe>
 
-We can see that among the selected conservative news sources National Review is the one that portrays quotes with the most similar sentiment scores from males and females, followed by The American Conservative, The American Spectator and The Blaze. Whereas Human Events and The Washington Times are the ones having the biggest difference in sentiment scores. The Washington Times also constitutes the majority of the quotes in the conservative group and therefore is an important factor in the trend towards more positive quotes from men in conservative news sources. By looking at the sizes of the data points in the graphs, in addition to the sentimental differences, we can see that conservative news sources make less use of quotations than liberal news sources.
-
+Interestingly, for conservative websites, we see small gaps all around. However, **the Washington Times presents a the biggest sentiment gap, which is positive towards men**. As for the smallest gaps, we have National Review first, followed by The American Conservative, The American Spectator and The Blaze. By looking at the sizes of the data points in the graphs, in addition to the sentimental differences, we can see that conservative news sources make less use of quotations than liberal news sources.
 
 # Text Complexity
 
