@@ -169,7 +169,7 @@ On the plots below we show the differences in text complexity by men and women, 
 
 The bars show the difference of complexity between men and women, and hovering over the bars we may see the actual values for men and women. There is a [conversion table](https://en.wikipedia.org/wiki/Dale%E2%80%93Chall_readability_formula) that translates these numbers into an approximation of school level needed to understand the text. We present it below for convenience.
 
-<style>
+<style align="center">
 .tablelines table, .tablelines td, .tablelines th {
         border: 1px solid black;
         padding: 5px;
